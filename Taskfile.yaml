@@ -45,15 +45,14 @@ tasks:
 
   package:
     desc: This is triggered by cog as a pre_bump_hook to generate all the final publishable artifacts
-    deps:
-      - lint
     requires:
       vars:
         - COG_VERSION
         - COG_VERSION_TAG
         - COG_PACKAGE_NAME
     cmds:
-      - 'echo "TODO: Add commands to build your package and prepare it for publishing here. You can use the COG_VERSION, COG_VERSION_TAG, and COG_PACKAGE_NAME environment variables to customize the build based on the version being released."'
+      - dprint fmt CHANGELOG.md
+      - task: lint
 
   publish:
     desc: This is triggered by cog as a post_bump_hook to publish all the final publishable artifacts
