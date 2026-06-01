@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.5](https://github.com/brad-jones/starter-template/compare/a7daa9bf55f96f9ef355143e1fa76a78fb101259..v0.1.5) - 2026-06-01
+#### Documentation
+- (**adr**) use Renovate over Dependabot for dependency updates - ([a7daa9b](https://github.com/brad-jones/starter-template/commit/a7daa9bf55f96f9ef355143e1fa76a78fb101259)) - [@brad-jones](https://github.com/brad-jones)
+- (**taskfile**) clarify update task description and add summary - ([ff65468](https://github.com/brad-jones/starter-template/commit/ff65468a59cbeb7103aba7fc62271bb6315b8374)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.4](https://github.com/brad-jones/starter-template/compare/26aca3de981e5e53282d676a854f2e7bb46e4071..v0.1.4) - 2026-06-01
 #### Bug Fixes
 - (**renovatebot**) give the correct issues write permissions - ([26aca3d](https://github.com/brad-jones/starter-template/commit/26aca3de981e5e53282d676a854f2e7bb46e4071)) - [@brad-jones](https://github.com/brad-jones)
