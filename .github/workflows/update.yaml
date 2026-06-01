@@ -4,6 +4,20 @@ on:
     - cron: 0 5 1 * *
 
 jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: ⬇️ Git Checkout
+        uses: actions/checkout@v6
+
+      - name: 🤖 Run Renovate
+        uses: renovatebot/github-action@v46.1.14
+        env:
+          RENOVATE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   pixi:
     runs-on: ubuntu-latest
     permissions:
