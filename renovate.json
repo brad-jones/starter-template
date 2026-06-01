@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":conventionalCommits"],
+  "extends": ["config:recommended", ":semanticCommits"],
   "enabledManagers": ["github-actions", "deno", "nuget", "gomod"]
 }
