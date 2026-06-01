@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.3](https://github.com/brad-jones/starter-template/compare/aad0714aa23a4e7e12daa3e7f5ceb1fde3dcd814..v0.1.3) - 2026-06-01
+#### Bug Fixes
+- (**ci**) set RENOVATE_REPOSITORIES to target current repo - ([68e78a4](https://github.com/brad-jones/starter-template/commit/68e78a4445d053e81f81f6f7e51b064cad9b5a72)) - [@brad-jones](https://github.com/brad-jones)
+- (**pixi**) use correct base branch in the pr create step - ([aad0714](https://github.com/brad-jones/starter-template/commit/aad0714aa23a4e7e12daa3e7f5ceb1fde3dcd814)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.2](https://github.com/brad-jones/starter-template/compare/f66700e398cdcb1f85959c4741cf71200e87e0c3..v0.1.2) - 2026-06-01
 #### Continuous Integration
 - add renovate self-hosted job to update workflow (#1) - ([f66700e](https://github.com/brad-jones/starter-template/commit/f66700e398cdcb1f85959c4741cf71200e87e0c3)) - Copilot, copilot-swe-agent[bot], brad-jones
