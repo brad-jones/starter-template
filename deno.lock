@@ -22,6 +22,7 @@
     "jsr:@std/path@1": "1.1.5",
     "jsr:@std/path@^1.1.5": "1.1.5",
     "jsr:@std/semver@^1.0.8": "1.0.8",
+    "jsr:@std/streams@^1.1.1": "1.1.1",
     "jsr:@std/text@^1.0.17": "1.0.19",
     "jsr:@std/toml@^1.0.11": "1.0.11",
     "jsr:@std/yaml@^1.1.1": "1.1.1",
@@ -122,6 +123,12 @@
     },
     "@std/semver@1.0.8": {
       "integrity": "dc830e8b8b6a380c895d53fbfd1258dc253704ca57bbe1629ac65fd7830179b7"
+    },
+    "@std/streams@1.1.1": {
+      "integrity": "92556d350e537e9dce527a6d08f6f15be3ff65e656079dea69d15252187c7613",
+      "dependencies": [
+        "jsr:@std/bytes"
+      ]
     },
     "@std/text@1.0.19": {
       "integrity": "003a0e032d360e8c3a4e0410fb792c77a66bd6553fee9d60c6ec1bce30d29223"
@@ -230,6 +237,7 @@
       "jsr:@david/dax@~0.48.2",
       "jsr:@std/fs@^1.0.24",
       "jsr:@std/path@^1.1.5",
+      "jsr:@std/streams@^1.1.1",
       "jsr:@std/toml@^1.0.11",
       "jsr:@std/yaml@^1.1.1",
       "jsr:@zod/zod@^4.4.3",

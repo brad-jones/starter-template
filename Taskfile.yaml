@@ -63,4 +63,15 @@ tasks:
         - COG_VERSION_TAG
         - COG_PACKAGE_NAME
     cmds:
-      - 'echo "TODO: Add commands to publish your package here. You can use the COG_VERSION, COG_VERSION_TAG, and COG_PACKAGE_NAME environment variables to customize the publishing process based on the version being released."'
+      # Push up the CHANGELOG.md that has now been written by cog.
+      - git push && git push --tags
+      - cog-extract-changelog.ts < CHANGELOG.md > GITHUB_CHANGELOG.md
+      - gh release create {{.COG_VERSION_TAG}} -F GITHUB_CHANGELOG.md
+
+      # Use this instead if you have additional assets to upload with your
+      # release - the things created by the above package task - make sure
+      # to update the command to include the correct path to your assets.
+      # - gh release create {{.COG_VERSION_TAG}} -F GITHUB_CHANGELOG.md ./publish/*
+
+      # This is where you might also publish to package registries like npm,
+      # PyPI, NuGet, docker hub, etc.

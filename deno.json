@@ -6,6 +6,7 @@
     "@github/copilot-sdk": "npm:@github/copilot-sdk@^1.0.0-beta.9",
     "@std/fs": "jsr:@std/fs@^1.0.24",
     "@std/path": "jsr:@std/path@^1.1.5",
+    "@std/streams": "jsr:@std/streams@^1.1.1",
     "@std/toml": "jsr:@std/toml@^1.0.11",
     "@std/yaml": "jsr:@std/yaml@^1.1.1",
     "@zod/zod": "jsr:@zod/zod@^4.4.3"
