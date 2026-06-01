@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.1](https://github.com/brad-jones/starter-template/compare/75488655d6b314bda9206211364d7d31a0f963df..v0.1.1) - 2026-06-01
+#### Continuous Integration
+- add copilot setup steps workflow - ([7548865](https://github.com/brad-jones/starter-template/commit/75488655d6b314bda9206211364d7d31a0f963df)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.0](https://github.com/brad-jones/starter-template/compare/97cde281feddf69f29f354ef29da4ac17e7e86ec..v0.1.0) - 2026-06-01
 #### Features
 - (**release**) implement GitHub release workflow with changelog extraction - ([2ac331e](https://github.com/brad-jones/starter-template/commit/2ac331e668fea6d357770e63596bff2e85377809)) - [@brad-jones](https://github.com/brad-jones)
