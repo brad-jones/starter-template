@@ -13,11 +13,11 @@ tasks:
       - test "$DIRENV_INIT" = "1"
     cmds:
       - xcaffold apply --yes
-      - lefthook install -f
+      - "{{if not .CI}}lefthook install -f{{end}}"
       - dotnetup install 10
       - git config pull.rebase true
-      - git config core.editor "code --wait"
-      - git config commit.template "$PWD/.gitmsgtpl"
+      - '{{if not .CI}}git config core.editor "code --wait"{{end}}'
+      - '{{if not .CI}}git config commit.template "$PWD/.gitmsgtpl"{{end}}'
       - "{{if .CI}}git config --global user.name github-actions[bot]{{end}}"
       - "{{if .CI}}git config --global user.email github-actions[bot]@users.noreply.github.com{{end}}"
 
