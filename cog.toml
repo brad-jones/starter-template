@@ -5,11 +5,11 @@ tag_prefix = "v"
 branch_whitelist = ["master"]
 from_latest_tag = true
 
-pre_package_bump_hooks = [
+pre_bump_hooks = [
   "task package COG_VERSION_TAG=v{{version}} COG_VERSION={{version}} COG_PACKAGE_NAME=starter-template",
 ]
 
-post_package_bump_hooks = [
+post_bump_hooks = [
   "task publish COG_VERSION_TAG=v{{version}} COG_VERSION={{version}} COG_PACKAGE_NAME=starter-template",
 ]
 
@@ -43,9 +43,9 @@ owner = "brad-jones"
 repository = "starter-template"
 authors = [{ signature = "Brad Jones", username = "brad-jones" }]
 
-# [packages]
+# [monorepo.packages]
 #
-# [packages.foo]
+# [monorepo.packages.foo]
 # path = "projects/foo"
 # include = [
 #   "projects/foo/**",
@@ -53,7 +53,7 @@ authors = [{ signature = "Brad Jones", username = "brad-jones" }]
 #   ".github/workflows/foos-pipeline.yaml",
 # ]
 #
-# [packages.bar]
+# [monorepo.packages.bar]
 # path = "projects/bar"
 # include = [
 #   "projects/bar/**",
