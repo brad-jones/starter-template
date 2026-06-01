@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.4](https://github.com/brad-jones/starter-template/compare/26aca3de981e5e53282d676a854f2e7bb46e4071..v0.1.4) - 2026-06-01
+#### Bug Fixes
+- (**renovatebot**) give the correct issues write permissions - ([26aca3d](https://github.com/brad-jones/starter-template/commit/26aca3de981e5e53282d676a854f2e7bb46e4071)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.3](https://github.com/brad-jones/starter-template/compare/aad0714aa23a4e7e12daa3e7f5ceb1fde3dcd814..v0.1.3) - 2026-06-01
 #### Bug Fixes
 - (**ci**) set RENOVATE_REPOSITORIES to target current repo - ([68e78a4](https://github.com/brad-jones/starter-template/commit/68e78a4445d053e81f81f6f7e51b064cad9b5a72)) - [@brad-jones](https://github.com/brad-jones)
