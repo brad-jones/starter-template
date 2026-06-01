@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.2](https://github.com/brad-jones/starter-template/compare/f66700e398cdcb1f85959c4741cf71200e87e0c3..v0.1.2) - 2026-06-01
+#### Continuous Integration
+- add renovate self-hosted job to update workflow (#1) - ([f66700e](https://github.com/brad-jones/starter-template/commit/f66700e398cdcb1f85959c4741cf71200e87e0c3)) - Copilot, copilot-swe-agent[bot], brad-jones
+
+- - -
+
 ## [v0.1.1](https://github.com/brad-jones/starter-template/compare/75488655d6b314bda9206211364d7d31a0f963df..v0.1.1) - 2026-06-01
 #### Continuous Integration
 - add copilot setup steps workflow - ([7548865](https://github.com/brad-jones/starter-template/commit/75488655d6b314bda9206211364d7d31a0f963df)) - [@brad-jones](https://github.com/brad-jones)
