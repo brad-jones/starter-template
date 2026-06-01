@@ -1,0 +1,16 @@
+---
+kind: rule
+version: "1.0"
+name: nuget-cache
+description: "Directs agents to the correct NuGet package cache location within the pixi environment."
+activation: always
+---
+## NuGet Package Cache Location
+
+The NuGet package cache is located inside the pixi environment, **not** in the user's home directory:
+
+```
+./.pixi/envs/default/var/cache/nuget
+```
+
+When looking for cached NuGet packages or .NET assemblies, inspect this path rather than `~/.nuget/packages`.

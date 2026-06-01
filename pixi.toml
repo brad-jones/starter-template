@@ -1,0 +1,25 @@
+[workspace]
+platforms = ["linux-64"]
+channels = ["https://prefix.dev/brads-forge", "conda-forge"]
+
+[tasks]
+init = "task init"
+
+[tasks.code]
+depends-on = ["init"]
+cmd = "code ."
+
+[target.unix.activation.env]
+PATH = "$PWD/scripts:$PATH"
+
+[dependencies]
+deno = ">=2.8.1,<2.9"
+lefthook = ">=2.1.9,<3"
+xcaffold = ">=0.9.3,<0.10"
+cocogitto = ">=7.0.0,<8"
+task = ">=3.51.1,<4"
+dprint = ">=0.54.0,<0.55"
+dotnetup = ">=0.5.2,<0.6"
+go-sops = ">=3.13.1,<4"
+copilot-cli = ">=1.0.56,<2"
+skopeo = ">=1.23.0,<2"

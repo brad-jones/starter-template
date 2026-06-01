@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+# https://taskfile.dev
+version: 3
+
+dotenv: [".env"]
+set: [pipefail]
+shopt: [globstar]
+
+tasks:
+  init:
+    desc: Setup dev env (anything that pixi can't install and setup for us).
+    status:
+      - test "$DIRENV_INIT" = "1"
+    cmds:
+      - xcaffold apply --yes
+      - lefthook install -f
+      - dotnetup install 10
+      - git config pull.rebase true
+      - git config core.editor "code --wait"
+      - git config commit.template "$PWD/.gitmsgtpl"
+      - "{{if .CI}}git config --global user.name github-actions[bot]{{end}}"
+      - "{{if .CI}}git config --global user.email github-actions[bot]@users.noreply.github.com{{end}}"
+
+  update:
+    desc: Updates our dependencies to their latest versions.
+    cmds:
+      - pixi self-update
+      - deno run -A ./scripts/sync-gha-pixi-version.ts
+      - pixi upgrade
+      - dprint config upgrade
+      - deno update --latest --recursive
+      - deno run -A ./scripts/docker-update-tags.ts
+      - dotnet tool update --all
+      - dotnet outdated -u:prompt --recursive
+
+  lint:
+    desc: Lints our code to ensure it remains of a high quality.
+    cmds:
+      - dprint check
+
+  fmt:
+    desc: Formats our code to ensure it looks consistent.
+    cmds:
+      - dprint fmt
+
+  package:
+    desc: This is triggered by cog as a pre_bump_hook to generate all the final publishable artifacts
+    deps:
+      - lint
+    requires:
+      vars:
+        - COG_VERSION
+        - COG_VERSION_TAG
+        - COG_PACKAGE_NAME
+    cmds:
+      - 'echo "TODO: Add commands to build your package and prepare it for publishing here. You can use the COG_VERSION, COG_VERSION_TAG, and COG_PACKAGE_NAME environment variables to customize the build based on the version being released."'
+
+  publish:
+    desc: This is triggered by cog as a post_bump_hook to publish all the final publishable artifacts
+    requires:
+      vars:
+        - COG_VERSION
+        - COG_VERSION_TAG
+        - COG_PACKAGE_NAME
+    cmds:
+      - 'echo "TODO: Add commands to publish your package here. You can use the COG_VERSION, COG_VERSION_TAG, and COG_PACKAGE_NAME environment variables to customize the publishing process based on the version being released."'

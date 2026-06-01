@@ -1,0 +1,38 @@
+{
+  "lineWidth": 120,
+  "newLineKind": "lf",
+  "useTabs": false,
+  "incremental": true,
+  "typescript": {
+    "deno": true,
+    "lineWidth": 120
+  },
+  "json": { "deno": true },
+  "yaml": {},
+  "toml": {},
+  "markdown": {
+    "deno": true
+  },
+  "csharpier": {},
+  "exec": {
+    "commands": [
+      { "command": "gofmt", "stdin": true, "exts": ["go"] }
+    ]
+  },
+  "includes": [
+    "**/*.{cs,go,ts,tsx,js,jsx,cjs,mjs,json,yml,yaml,toml,md}"
+  ],
+  "excludes": [
+    "**/.git",
+    "**/.pixi"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/toml-0.7.0.wasm",
+    "https://plugins.dprint.dev/typescript-0.96.1.wasm",
+    "https://plugins.dprint.dev/json-0.21.3.wasm",
+    "https://plugins.dprint.dev/markdown-0.22.1.wasm",
+    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.6.0.wasm",
+    "https://plugins.dprint.dev/exec-0.6.2.json@df98f54ffd3092b8a841aedd6d098a2651f16d0a796a40535774f1a8b4b9d463",
+    "https://plugins.dprint.dev/Phault/csharpier-0.2.2.json@7ee18eb6f024b77dbba765af61bc5024fc699814797f909715820fd8eeab4ca5"
+  ]
+}

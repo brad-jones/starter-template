@@ -1,0 +1,6 @@
+kind: project
+version: "1.0"
+name: starter-template
+targets:
+  - claude
+  - copilot
