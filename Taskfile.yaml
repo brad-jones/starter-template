@@ -22,7 +22,11 @@ tasks:
       - "{{if .CI}}git config --global user.email github-actions[bot]@users.noreply.github.com{{end}}"
 
   update:
-    desc: Updates our dependencies to their latest versions.
+    desc: Interactively updates our dependencies to their latest versions.
+    summary: |
+      As per docs/decisions/0014-use-renovate-over-dependabot-for-dependency-updates.md
+      we use Renovate for automated dependency updates, but this task can be run manually
+      by a developer when they want to update all dependencies in one hit.
     cmds:
       - pixi self-update
       - deno run -A ./scripts/sync-gha-pixi-version.ts
