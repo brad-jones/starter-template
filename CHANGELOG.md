@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.0](https://github.com/brad-jones/starter-template/compare/6dcb30e0cdc19208c161310898ce4ffe19a845e1..v0.2.0) - 2026-07-03
+#### Features
+- (**sops**) add sops with age for secret management - ([6dcb30e](https://github.com/brad-jones/starter-template/commit/6dcb30e0cdc19208c161310898ce4ffe19a845e1)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.10](https://github.com/brad-jones/starter-template/compare/d53ea6b075a53769c79497fad1fe3fa36bb22d6d..v0.1.10) - 2026-07-03
 #### Build system
 - bump dependencies across all toolchains - ([d53ea6b](https://github.com/brad-jones/starter-template/commit/d53ea6b075a53769c79497fad1fe3fa36bb22d6d)) - [@brad-jones](https://github.com/brad-jones)
