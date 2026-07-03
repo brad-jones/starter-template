@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.7](https://github.com/brad-jones/starter-template/compare/3bd1606ba37109aefe6071cfc1a926a18bdf816e..v0.1.7) - 2026-07-03
+#### Miscellaneous Chores
+- (**deps**) update dependency dotnet-sdk to v10.0.301 (#5) - ([3bd1606](https://github.com/brad-jones/starter-template/commit/3bd1606ba37109aefe6071cfc1a926a18bdf816e)) - github-actions[bot], github-actions[bot]
+
+- - -
+
 ## [v0.1.6](https://github.com/brad-jones/starter-template/compare/626b88ec88e363b994e967b0ea6ca9b3af24a460..v0.1.6) - 2026-07-03
 #### Documentation
 - (**ci**) add note about required workflow permissions - ([11a1379](https://github.com/brad-jones/starter-template/commit/11a1379673325de5d854eab5988366f34a422fdd)) - [@brad-jones](https://github.com/brad-jones)
