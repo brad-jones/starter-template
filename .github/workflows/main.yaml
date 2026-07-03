@@ -37,6 +37,11 @@ jobs:
       - name: 🛠️ Additional Initialization
         run: task init
 
+      - name: 🔑 Prove we can read our SOPs secrets
+        run: sops.ts get -k TOP_SECRET
+        env:
+          SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
+
       - name: 🚀 Package & Publish Next Version
         # NB: Alternatively just call `cog bump --auto` here.
         # But then cog will fail with a non-zero exit code if there are no

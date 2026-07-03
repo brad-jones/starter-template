@@ -114,3 +114,6 @@ $RECYCLE.BIN/
 xcaf/project.vars.local
 .claude/
 CLAUDE.md
+
+# sops
+.sops.age.key
