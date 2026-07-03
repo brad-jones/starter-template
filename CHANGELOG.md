@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.8](https://github.com/brad-jones/starter-template/compare/7363caced701926544ed3af954a1cf78a84e2ae0..v0.1.8) - 2026-07-03
+#### Miscellaneous Chores
+- (**deps**) update dependency dotnet-outdated-tool to v4.8.1 (#4) - ([7363cac](https://github.com/brad-jones/starter-template/commit/7363caced701926544ed3af954a1cf78a84e2ae0)) - github-actions[bot], github-actions[bot]
+
+- - -
+
 ## [v0.1.7](https://github.com/brad-jones/starter-template/compare/3bd1606ba37109aefe6071cfc1a926a18bdf816e..v0.1.7) - 2026-07-03
 #### Miscellaneous Chores
 - (**deps**) update dependency dotnet-sdk to v10.0.301 (#5) - ([3bd1606](https://github.com/brad-jones/starter-template/commit/3bd1606ba37109aefe6071cfc1a926a18bdf816e)) - github-actions[bot], github-actions[bot]
