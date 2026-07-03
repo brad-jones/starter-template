@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.6](https://github.com/brad-jones/starter-template/compare/626b88ec88e363b994e967b0ea6ca9b3af24a460..v0.1.6) - 2026-07-03
+#### Documentation
+- (**ci**) add note about required workflow permissions - ([11a1379](https://github.com/brad-jones/starter-template/commit/11a1379673325de5d854eab5988366f34a422fdd)) - [@brad-jones](https://github.com/brad-jones)
+#### Continuous Integration
+- (**update**) change renovate schedule from monthly to daily - ([626b88e](https://github.com/brad-jones/starter-template/commit/626b88ec88e363b994e967b0ea6ca9b3af24a460)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.5](https://github.com/brad-jones/starter-template/compare/a7daa9bf55f96f9ef355143e1fa76a78fb101259..v0.1.5) - 2026-06-01
 #### Documentation
 - (**adr**) use Renovate over Dependabot for dependency updates - ([a7daa9b](https://github.com/brad-jones/starter-template/commit/a7daa9bf55f96f9ef355143e1fa76a78fb101259)) - [@brad-jones](https://github.com/brad-jones)
