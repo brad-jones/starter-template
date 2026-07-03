@@ -42,12 +42,12 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.6.17-hbd8a1cb_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/cocogitto-7.0.0-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.68-h81b34b9_1.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/deno-2.8.3-h81b34b9_4.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.1-h81b34b9_4.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.54.0-h81b34b9_2.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.55.1-h81b34b9_3.conda
       - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.9-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/task-3.52.0-h81b34b9_2.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/xcaffold-0.9.4-h81b34b9_0.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/xcaffold-0.15.0-h81b34b9_0.conda
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
   build_number: 20
@@ -417,13 +417,13 @@ packages:
   run_exports: {}
   size: 74472008
   timestamp: 1782967712758
-- conda: https://prefix.dev/brads-forge/linux-64/deno-2.8.3-h81b34b9_4.conda
-  sha256: b3812c36f0e145db9dabf056f22b76d5b238f18a7b17d8d53e2193661fc6402d
-  md5: 5af39c2eb53bdfb502a6bbebe0ae255b
+- conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.1-h81b34b9_4.conda
+  sha256: 097867b99cf43c5b8a5f44e5ebfb4450d07ed59557fd0cacb5e96753dabbf20e
+  md5: 6a12375e61c21eb8d06decb9b33d9e49
   license: MIT
   run_exports: {}
-  size: 38199848
-  timestamp: 1781240818084
+  size: 38231196
+  timestamp: 1782967784046
 - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
   sha256: 92f0740b320644c8cd0f66876f5a9b1029d992ee3df737748a87226e66652093
   md5: 24859519fe91d34e6fc7b5c60a29b2f6
@@ -438,13 +438,13 @@ packages:
   run_exports: {}
   size: 3775961
   timestamp: 1771557381178
-- conda: https://prefix.dev/brads-forge/linux-64/dprint-0.54.0-h81b34b9_2.conda
-  sha256: 8d2dc442aa436bc8daad5f3ee71247388766dd214e64ed4ed5735b472e90063c
-  md5: 9f8b136c280708686ac29bf60d2fa12f
+- conda: https://prefix.dev/brads-forge/linux-64/dprint-0.55.1-h81b34b9_3.conda
+  sha256: 9afd9055fb5b3518dec1491b8946529497a752e4ed91a2eb0f3c8c5ac8f11eb0
+  md5: 7e1925da76fe70d8ee21bfe7cf0f7c1d
   license: MIT
   run_exports: {}
-  size: 7951865
-  timestamp: 1775708361583
+  size: 8929062
+  timestamp: 1782696356459
 - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.9-h81b34b9_2.conda
   sha256: e16f910a7f5eabd7412e14ef5df1463529df6baed5dbffb18c9c08da1d249815
   md5: 65cba397a06e37e602b3e5749d4d6f25
@@ -459,10 +459,10 @@ packages:
   run_exports: {}
   size: 13804784
   timestamp: 1783053950302
-- conda: https://prefix.dev/brads-forge/linux-64/xcaffold-0.9.4-h81b34b9_0.conda
-  sha256: 8b4ee60b93db412106940c4d0acdf5590759aa5f73ed5127b3a90e4065daa67f
-  md5: 5979df256c3f8aaf471ff3d83989743d
+- conda: https://prefix.dev/brads-forge/linux-64/xcaffold-0.15.0-h81b34b9_0.conda
+  sha256: 21f4895d82e5fe204e1d03d4c8beb00006ab2e42fc624398770356a6284343e1
+  md5: c42823168eb4799cfa7efc7f89ee4c5d
   license: MIT
   run_exports: {}
-  size: 4386029
-  timestamp: 1780721261723
+  size: 4442421
+  timestamp: 1782018794738

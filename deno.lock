@@ -1,60 +1,61 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@cliffy/command@^1.1.1": "1.1.1",
-    "jsr:@cliffy/flags@1.1.1": "1.1.1",
-    "jsr:@cliffy/internal@1.1.1": "1.1.1",
-    "jsr:@cliffy/table@1.1.1": "1.1.1",
+    "jsr:@cliffy/command@^1.2.1": "1.2.1",
+    "jsr:@cliffy/flags@1.2.1": "1.2.1",
+    "jsr:@cliffy/internal@1.2.1": "1.2.1",
+    "jsr:@cliffy/table@1.2.1": "1.2.1",
     "jsr:@cspotcode/outdent@0.8": "0.8.0",
     "jsr:@david/console-static-text@~0.3.4": "0.3.4",
-    "jsr:@david/dax@~0.48.2": "0.48.2",
+    "jsr:@david/dax@~0.48.4": "0.48.4",
     "jsr:@david/path@0.3": "0.3.2",
     "jsr:@david/path@~0.3.2": "0.3.2",
-    "jsr:@david/shell@~0.5.1": "0.5.1",
+    "jsr:@david/shell@~0.5.3": "0.5.3",
     "jsr:@david/which@0.7": "0.7.0",
     "jsr:@std/bytes@^1.0.6": "1.0.6",
-    "jsr:@std/collections@^1.1.3": "1.2.0",
+    "jsr:@std/collections@^1.1.3": "1.3.0",
     "jsr:@std/fmt@1": "1.0.10",
-    "jsr:@std/fmt@^1.0.9": "1.0.10",
+    "jsr:@std/fmt@^1.0.10": "1.0.10",
     "jsr:@std/fs@^1.0.24": "1.0.24",
     "jsr:@std/internal@^1.0.14": "1.0.14",
     "jsr:@std/io@0.225": "0.225.3",
-    "jsr:@std/path@1": "1.1.5",
-    "jsr:@std/path@^1.1.5": "1.1.5",
+    "jsr:@std/path@1": "1.1.6",
+    "jsr:@std/path@^1.1.5": "1.1.6",
+    "jsr:@std/path@^1.1.6": "1.1.6",
     "jsr:@std/semver@^1.0.8": "1.0.8",
     "jsr:@std/streams@^1.1.1": "1.1.1",
-    "jsr:@std/text@^1.0.17": "1.0.19",
+    "jsr:@std/text@^1.0.19": "1.0.19",
     "jsr:@std/toml@^1.0.11": "1.0.11",
-    "jsr:@std/yaml@^1.1.1": "1.1.1",
+    "jsr:@std/yaml@^1.1.2": "1.1.2",
     "jsr:@zod/zod@^4.4.3": "4.4.3",
-    "npm:@github/copilot-sdk@^1.0.0-beta.9": "1.0.0-beta.9"
+    "npm:@github/copilot-sdk@^1.0.5": "1.0.5"
   },
   "jsr": {
-    "@cliffy/command@1.1.1": {
-      "integrity": "33d587cda00786be408a57fd1b25171289fcad09abf7c03ff401b070a9332070",
+    "@cliffy/command@1.2.1": {
+      "integrity": "b7b017c81560d96580ea810c8564566884d8194416f6fc06bfdc8846e8fd590f",
       "dependencies": [
         "jsr:@cliffy/flags",
         "jsr:@cliffy/internal",
         "jsr:@cliffy/table",
-        "jsr:@std/fmt@^1.0.9",
+        "jsr:@std/fmt@^1.0.10",
         "jsr:@std/semver",
         "jsr:@std/text"
       ]
     },
-    "@cliffy/flags@1.1.1": {
-      "integrity": "8fcb14a86d4c61f96248fd4e38e243308e7660a014de65e72f095188a4699000",
+    "@cliffy/flags@1.2.1": {
+      "integrity": "10034920ef7595db586fecec5a3b10a4ec800c513cbbc368414cd748dac706fb",
       "dependencies": [
         "jsr:@cliffy/internal",
         "jsr:@std/text"
       ]
     },
-    "@cliffy/internal@1.1.1": {
-      "integrity": "a658c9ec5ac30819b8c25e6bff0250f57eec90c5047a8c8b19109b54a16bb89b"
+    "@cliffy/internal@1.2.1": {
+      "integrity": "e398f41c6839d3d4d249c963bfcb1058013091425926d53a3cb482b1ca70684b"
     },
-    "@cliffy/table@1.1.1": {
-      "integrity": "2c74d172175952d60ce8b1f37d4179bba195ae47f30be87afa7522dfe4783049",
+    "@cliffy/table@1.2.1": {
+      "integrity": "be333e62f2c754f8bf75a38c8177515b152040572c9f75298e9bcef1314b82ff",
       "dependencies": [
-        "jsr:@std/fmt@^1.0.9"
+        "jsr:@std/fmt@^1.0.10"
       ]
     },
     "@cspotcode/outdent@0.8.0": {
@@ -63,8 +64,8 @@
     "@david/console-static-text@0.3.4": {
       "integrity": "1c596f500b075ff3c8bab1d328ca7148a88067fd9a506b16a73eeaf230c229fd"
     },
-    "@david/dax@0.48.2": {
-      "integrity": "14e4656aad5542c39b6c963e8e9573a9d6ab31711bc7a1581608b68e2ca2b030",
+    "@david/dax@0.48.4": {
+      "integrity": "6e49e23994c4b56c1a78b219f37297daaf57ec24e3beb888beb9c6ac36b907a3",
       "dependencies": [
         "jsr:@david/console-static-text",
         "jsr:@david/path@~0.3.2",
@@ -76,8 +77,8 @@
     "@david/path@0.3.2": {
       "integrity": "f25aaa3de4d3b9edfe25ca5edf15e3014fee7df4f77d64327e5300c27c1a0497"
     },
-    "@david/shell@0.5.1": {
-      "integrity": "2469318121505246c0633fd0cc34e907d8ee1716cbe41264eb78026f31b53d6c",
+    "@david/shell@0.5.3": {
+      "integrity": "2349201b78b75cb1fc574bde0a90f49aec08c0b12205f487067aa818f1eafad5",
       "dependencies": [
         "jsr:@david/console-static-text",
         "jsr:@david/path@0.3",
@@ -95,6 +96,9 @@
     },
     "@std/collections@1.2.0": {
       "integrity": "47627a21d3a13138b77fd0e4d790ba9d2e603c3510b686cde6b132fe9aa98a88"
+    },
+    "@std/collections@1.3.0": {
+      "integrity": "eb36b43d784477ea0b476483ac034a14bdd182aff921c812ecf662a1fcef9498"
     },
     "@std/fmt@1.0.10": {
       "integrity": "90dfba288802ac6de82fb31d0917eb9e4450b9925b954d5e51fc29ac07419db5"
@@ -115,8 +119,8 @@
         "jsr:@std/bytes"
       ]
     },
-    "@std/path@1.1.5": {
-      "integrity": "ccea00982ea28c36becaf6e62f855406c76a8c32d462f66f415bbb7d83a271bc",
+    "@std/path@1.1.6": {
+      "integrity": "c68485c2a4dfbb5ae3cc74fae4e8c4e5d874cf8a8ed12927917235c758b46cbe",
       "dependencies": [
         "jsr:@std/internal"
       ]
@@ -139,72 +143,72 @@
         "jsr:@std/collections"
       ]
     },
-    "@std/yaml@1.1.1": {
-      "integrity": "a57665ecf3d17b926380593a56625d8a10cc7281802f1e993b5ebc94a48e71f8"
+    "@std/yaml@1.1.2": {
+      "integrity": "de612653c036749ba2044165e316f52412b0f0698afffb7ee80b5331d6d2abae"
     },
     "@zod/zod@4.4.3": {
       "integrity": "4712ac0967efaa718b37c36eaffb4e1d4457e1a266aef6efb3ab36f54a6fefe4"
     }
   },
   "npm": {
-    "@github/copilot-darwin-arm64@1.0.56": {
-      "integrity": "sha512-vCittEfa/Qys86TxhI5rgxy8L8WTQoooIjEj8kZe7mq62TOOrFGnWJjqaR6mgljmPTxKRFmT6achUxKRVZil9g==",
+    "@github/copilot-darwin-arm64@1.0.68": {
+      "integrity": "sha512-0G26AL9dlrwTa5IRTxPEnkX6Kz20CuetIwXzABmWwiXYcsR9rswM/NYICR3k53TOa0zL7aqFPnl98CW7J5XbZw==",
       "os": ["darwin"],
       "cpu": ["arm64"],
       "bin": true
     },
-    "@github/copilot-darwin-x64@1.0.56": {
-      "integrity": "sha512-yO7OvFysG/98s9T8k5cEXzBz++mki7ufkH2S8/jqC7YIKhlj64rh+/vIBU5DQ9RLXbPKm6OjGjJn8iDWXzzuJQ==",
+    "@github/copilot-darwin-x64@1.0.68": {
+      "integrity": "sha512-RoClWH4CPH19pv5jrR0E6pBU6ljgrzL7idb7tV2pPtMYGTuwqW//XrIEE4n/5NVZmhzEiVBeq04THzOBeV493A==",
       "os": ["darwin"],
       "cpu": ["x64"],
       "bin": true
     },
-    "@github/copilot-linux-arm64@1.0.56": {
-      "integrity": "sha512-ukOwSwFOqgpQQs5Nw3GAFRGIn6LqA8KfI6hD+tUeqoWkB0OlXxwQER7sKEfSQZu1vcNnW1+YIM/qT5W5RWdmhA==",
+    "@github/copilot-linux-arm64@1.0.68": {
+      "integrity": "sha512-SXSOz/2xPeUM/ndKypBiQv+QGYaEM7oGytl1i+Yx4tJnOoIwLkkTmIaWUbBNn0n5DTEjUcWyDqHzxxo/42FKRQ==",
       "os": ["linux"],
       "cpu": ["arm64"],
       "bin": true
     },
-    "@github/copilot-linux-x64@1.0.56": {
-      "integrity": "sha512-C84nduDAeHCTEfjs+mYfIjbBjGRx2huy8XZBu0ETAD08uUBuQpUHn2PYhaaHb1yKoG6LMceKt10PTrqNdOE9IQ==",
+    "@github/copilot-linux-x64@1.0.68": {
+      "integrity": "sha512-YdG1chniWyps7XEJ2YHUOJkcOc6BpDQZby/zOKCVdswzRXx7d3WiZ2P9lfDimBBmXXJEJ81Fqhv2ZK5eOmGlUw==",
       "os": ["linux"],
       "cpu": ["x64"],
       "bin": true
     },
-    "@github/copilot-linuxmusl-arm64@1.0.56": {
-      "integrity": "sha512-EuDmGVl4fEk7Q+AVhkQkpiRlXpjGGQ5GzfBzMEOWgrvfdCLcT62p1uEaz+AT2UdkJiViruLyVf3pZFUyQwyvjA==",
+    "@github/copilot-linuxmusl-arm64@1.0.68": {
+      "integrity": "sha512-LTYZFOHpeLg4rCtsq3A/LMZxxRKFcCLmhnt8F7ovNYLNDJMkh3xdYanoXP0C0PO3uyUMiNJ+p5YXhZiBuo2yfw==",
       "os": ["linux"],
       "cpu": ["arm64"],
       "bin": true
     },
-    "@github/copilot-linuxmusl-x64@1.0.56": {
-      "integrity": "sha512-qRXub9+1J7mNIzweAaw0tGgztS6XK+ZlwhUjOcFTusbqnED33zw4HzExUNUTTDue/BOUwkYzvXqMqn5N6juIJg==",
+    "@github/copilot-linuxmusl-x64@1.0.68": {
+      "integrity": "sha512-oOMXZ9HPJAJaKSrXZIYuond4uOiUkK1uRhVPI3Cs74n7uEVKPWpNlTN+j/O754dnBa1+HJcuZSDMulTbnOgirg==",
       "os": ["linux"],
       "cpu": ["x64"],
       "bin": true
     },
-    "@github/copilot-sdk@1.0.0-beta.9": {
-      "integrity": "sha512-D4yiGL4/faFCjL7bozhX7bgxt/x1wp2LZ2p9Tw+xrA5hbcLh5Be5kPen+bFA8NbVfgt1G2djDYFZlrZjXXmcBw==",
+    "@github/copilot-sdk@1.0.5": {
+      "integrity": "sha512-N6Yk2DcpM9orYXWGBcQs5R0FdiVYrCn7UHQ206cUkfJengKYjgcd3f78BvVB6Dot3j0TvO04FnQ85K9/kbRRag==",
       "dependencies": [
         "@github/copilot",
         "vscode-jsonrpc",
         "zod"
       ]
     },
-    "@github/copilot-win32-arm64@1.0.56": {
-      "integrity": "sha512-/lj/zEezNoewCxvVORLN0JFvvi9WmQTYvtIyyg8kVlA9HZeg0vpRTBM5hdoni2D8mKb7g/8w8VF2Ecy9D3+NpA==",
+    "@github/copilot-win32-arm64@1.0.68": {
+      "integrity": "sha512-ZDqpJMP9Y5vqwvRxnIvZrVl8ibx/P66m3JTXQuzv6pitq7rkMEuNKscZ7cjJYN4N+BCOF5++5LKw8O1WHzXAAA==",
       "os": ["win32"],
       "cpu": ["arm64"],
       "bin": true
     },
-    "@github/copilot-win32-x64@1.0.56": {
-      "integrity": "sha512-062C3lp4nvVl+vkkteYOrYpgnqZ/SAi54NuTQ4k45V2TNmLIpmMybmM0tCluxOfiTY+8EuS72H9RS8NUj1CzhQ==",
+    "@github/copilot-win32-x64@1.0.68": {
+      "integrity": "sha512-eplj/Y2B+amMLJ37oNE6G8gx85j8ucAuJz+CjzpzprNiBUq45lFL8ukGeDtaLMRvIeYAEDYdz5yUzu2XtCE7mA==",
       "os": ["win32"],
       "cpu": ["x64"],
       "bin": true
     },
-    "@github/copilot@1.0.56": {
-      "integrity": "sha512-epJ9yRqK1QjU73FDAlxPqZKh+CxkA1TIYbhTvXblturw5wWUhCSRhI2XoamNERohPznY10Wg3tbZC3jUAmQdJw==",
+    "@github/copilot@1.0.68": {
+      "integrity": "sha512-2VPcTlW0RAEsfeS0Ma2ICCkfXgpxy3NL7+SReR8gzvEEPiokSRf0k5JBPlgMbBEFvocSRcJ01S8KvBm84Dw+Fw==",
       "dependencies": [
         "detect-libc"
       ],
@@ -232,16 +236,16 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@cliffy/command@^1.1.1",
+      "jsr:@cliffy/command@^1.2.1",
       "jsr:@cspotcode/outdent@0.8",
-      "jsr:@david/dax@~0.48.2",
+      "jsr:@david/dax@~0.48.4",
       "jsr:@std/fs@^1.0.24",
-      "jsr:@std/path@^1.1.5",
+      "jsr:@std/path@^1.1.6",
       "jsr:@std/streams@^1.1.1",
       "jsr:@std/toml@^1.0.11",
-      "jsr:@std/yaml@^1.1.1",
+      "jsr:@std/yaml@^1.1.2",
       "jsr:@zod/zod@^4.4.3",
-      "npm:@github/copilot-sdk@^1.0.0-beta.9"
+      "npm:@github/copilot-sdk@^1.0.5"
     ]
   }
 }
