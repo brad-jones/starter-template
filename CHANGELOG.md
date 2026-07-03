@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.10](https://github.com/brad-jones/starter-template/compare/d53ea6b075a53769c79497fad1fe3fa36bb22d6d..v0.1.10) - 2026-07-03
+#### Build system
+- bump dependencies across all toolchains - ([d53ea6b](https://github.com/brad-jones/starter-template/commit/d53ea6b075a53769c79497fad1fe3fa36bb22d6d)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.9](https://github.com/brad-jones/starter-template/compare/e33ce938f893c5ccae0192482f125677ac7b896a..v0.1.9) - 2026-07-03
 #### Miscellaneous Chores
 - (**pixi**) update pixi lockfile (#3) - ([e33ce93](https://github.com/brad-jones/starter-template/commit/e33ce938f893c5ccae0192482f125677ac7b896a)) - github-actions[bot], brad-jones
