@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: 0 0 * * *
 
+# NB: For this workflow to work you must tick "Allow GitHub Actions to create and approve pull requests".
+# In the repository settings under Actions > General > Workflow permissions.
+
 jobs:
   renovate:
     runs-on: ubuntu-latest
