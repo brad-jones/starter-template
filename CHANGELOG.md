@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.9](https://github.com/brad-jones/starter-template/compare/e33ce938f893c5ccae0192482f125677ac7b896a..v0.1.9) - 2026-07-03
+#### Miscellaneous Chores
+- (**pixi**) update pixi lockfile (#3) - ([e33ce93](https://github.com/brad-jones/starter-template/commit/e33ce938f893c5ccae0192482f125677ac7b896a)) - github-actions[bot], brad-jones
+
+- - -
+
 ## [v0.1.8](https://github.com/brad-jones/starter-template/compare/7363caced701926544ed3af954a1cf78a84e2ae0..v0.1.8) - 2026-07-03
 #### Miscellaneous Chores
 - (**deps**) update dependency dotnet-outdated-tool to v4.8.1 (#4) - ([7363cac](https://github.com/brad-jones/starter-template/commit/7363caced701926544ed3af954a1cf78a84e2ae0)) - github-actions[bot], github-actions[bot]
