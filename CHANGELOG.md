@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.1](https://github.com/brad-jones/starter-template/compare/8a6e34b5917104672b68256b9c9fcd0b77aeb971..v0.2.1) - 2026-07-09
+#### Miscellaneous Chores
+- (**pixi**) update pixi lockfile (#6) - ([8a6e34b](https://github.com/brad-jones/starter-template/commit/8a6e34b5917104672b68256b9c9fcd0b77aeb971)) - github-actions[bot], brad-jones
+
+- - -
+
 ## [v0.2.0](https://github.com/brad-jones/starter-template/compare/6dcb30e0cdc19208c161310898ce4ffe19a845e1..v0.2.0) - 2026-07-03
 #### Features
 - (**sops**) add sops with age for secret management - ([6dcb30e](https://github.com/brad-jones/starter-template/commit/6dcb30e0cdc19208c161310898ce4ffe19a845e1)) - [@brad-jones](https://github.com/brad-jones)
