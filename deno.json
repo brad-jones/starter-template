@@ -3,7 +3,7 @@
     "@cliffy/command": "jsr:@cliffy/command@^1.2.1",
     "@cliffy/prompt": "jsr:@cliffy/prompt@^1.2.1",
     "@cspotcode/outdent": "jsr:@cspotcode/outdent@^0.8.0",
-    "@david/dax": "jsr:@david/dax@^0.48.4",
+    "@david/dax": "jsr:@david/dax@^0.49.0",
     "@github/copilot-sdk": "npm:@github/copilot-sdk@^1.0.5",
     "@std/fs": "jsr:@std/fs@^1.0.24",
     "@std/path": "jsr:@std/path@^1.1.6",
