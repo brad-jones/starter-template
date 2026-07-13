@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.3](https://github.com/brad-jones/starter-template/compare/260834416369e616732889c2975f6452e7f96036..v0.2.3) - 2026-07-13
+#### Miscellaneous Chores
+- (**pixi**) update pixi lockfile - ([2608344](https://github.com/brad-jones/starter-template/commit/260834416369e616732889c2975f6452e7f96036)) - brad-jones
+
+- - -
+
 ## [v0.2.2](https://github.com/brad-jones/starter-template/compare/4835b47324b4a3757cc31faee82fd35a2c1ca3a8..v0.2.2) - 2026-07-13
 #### Miscellaneous Chores
 - (**deps**) update dependency @david/dax to ^0.49.0 - ([4835b47](https://github.com/brad-jones/starter-template/commit/4835b47324b4a3757cc31faee82fd35a2c1ca3a8)) - github-actions[bot]
