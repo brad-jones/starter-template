@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.2](https://github.com/brad-jones/starter-template/compare/1c15bc1cbd88780b1938a537dd9b72568adbc680..v0.3.2) - 2026-07-17
+#### Continuous Integration
+- (**pixi**) use the renovate bot github app for the pixi update too because we are now making edits to the workflow files - ([1c15bc1](https://github.com/brad-jones/starter-template/commit/1c15bc1cbd88780b1938a537dd9b72568adbc680)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.3.1](https://github.com/brad-jones/starter-template/compare/b2eac26ca0f5569619c552a97d8886a33652e2af..v0.3.1) - 2026-07-17
 #### Continuous Integration
 - remove add-paths restriction from pixi update PR - ([b2eac26](https://github.com/brad-jones/starter-template/commit/b2eac26ca0f5569619c552a97d8886a33652e2af)) - [@brad-jones](https://github.com/brad-jones)
