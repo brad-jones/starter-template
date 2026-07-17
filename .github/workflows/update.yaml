@@ -42,7 +42,7 @@ jobs:
     #
     # Or otherwise update it to the name of the identity that Renovate runs as.
     if: |
-      (github.event_name != 'issues' || github.event.issue.number == 13)
+      (github.event_name != 'issues' || github.event.issue.number == 15)
       && github.event.sender.login != 'brads-renovate[bot]'
     runs-on: ubuntu-latest
     steps:
