@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.10](https://github.com/brad-jones/starter-template/compare/121eb918098cf382c361093b345d1c367d522d28..v0.2.10) - 2026-07-17
+#### Continuous Integration
+- (**renovate**) update Dependency Dashboard issue number after new issue created by github app - ([121eb91](https://github.com/brad-jones/starter-template/commit/121eb918098cf382c361093b345d1c367d522d28)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.2.9](https://github.com/brad-jones/starter-template/compare/82e9c7e9b4318ead9a6e22be0623b95fb3ac011d..v0.2.9) - 2026-07-17
 #### Bug Fixes
 - (**ci**) inline renovate issue values in job-level if condition - ([82e9c7e](https://github.com/brad-jones/starter-template/commit/82e9c7e9b4318ead9a6e22be0623b95fb3ac011d)) - [@brad-jones](https://github.com/brad-jones)
