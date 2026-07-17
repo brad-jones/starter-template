@@ -21,7 +21,12 @@
 # - One is to create a personal access token and add it as a secret in your repo,
 # - The other is to create a GitHub App and use the actions/create-github-app-token
 #
-# In this repo we have setup a Github App called "brads-renovate-bot[bot]"
+# In this repo we have setup a Github App called "brads-renovate-bot[bot]".
+#
+# NB: If you use this exact text "brads-renovate[bot]" as Github App name,
+# Github will convert "[bot]" to "-bot" and then automatically append it's own
+# "[bot]" to the end of the name and this is how we ended up with "brads-renovate-bot[bot]"
+# as the final name of the Github App :)
 
 on:
   workflow_dispatch:
