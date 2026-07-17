@@ -31,24 +31,19 @@ on:
     types:
       - edited
 
-env:
-  # Set me to the issue number of the Renovate Dependency Dashboard issue
-  RENOVATE_ISSUE_NUMBER: 13
-
-  # Set me to the username of the Renovate bot,
-  # so we can skip running this job when the Renovate
-  # bot edits the dashboard issue.
-  RENOVATE_BOT_USERNAME: brads-renovate[bot]
-
 jobs:
   renovate:
     # NB: The `issues` trigger fires for every issue in the repo, but we only
     # want this job to re-run when the Renovate Dependency Dashboard issue changes.
-    # We also skip when the change was made by RENOVATE_BOT_USERNAME itself
-    # (i.e. by this very job editing the dashboard), to avoid a recursive loop.
+    # You will need to change the issue number below after initial creation.
+    #
+    # We also skip when the change was made by renovate itself, to avoid a recursive loop,
+    # if using the built in GITHUB_TOKEN, update the login to "github-actions[bot]".
+    #
+    # Or otherwise update it to the name of the identity that Renovate runs as.
     if: |
-      (github.event_name != 'issues' || github.event.issue.number == env.RENOVATE_ISSUE_NUMBER)
-      && github.event.sender.login != env.RENOVATE_BOT_USERNAME
+      (github.event_name != 'issues' || github.event.issue.number == 13)
+      && github.event.sender.login != 'brads-renovate[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: 🔑 Authenticate as Github App
