@@ -21,7 +21,7 @@
 # - One is to create a personal access token and add it as a secret in your repo,
 # - The other is to create a GitHub App and use the actions/create-github-app-token
 #
-# In this repo we have setup a Github App called "brads-renovate-bot"
+# In this repo we have setup a Github App called "brads-renovate-bot[bot]"
 
 on:
   workflow_dispatch:
@@ -43,7 +43,7 @@ jobs:
     # Or otherwise update it to the name of the identity that Renovate runs as.
     if: |
       (github.event_name != 'issues' || github.event.issue.number == 15)
-      && github.event.sender.login != 'brads-renovate-bot'
+      && github.event.sender.login != 'brads-renovate-bot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: 🔑 Authenticate as Github App
