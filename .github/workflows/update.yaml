@@ -89,11 +89,16 @@ jobs:
           set -o pipefail
           pixi update --json | pixi exec pixi-diff-to-markdown >> diff.md
 
+      - name: Update Pixi it's self
+        shell: pixi run bash -e {0}
+        run: |
+          sync-gha-pixi-version.ts
+
       - name: Create pull request
         uses: peter-evans/create-pull-request@v8
         with:
-          commit-message: "chore(pixi): update pixi lockfile"
-          title: "chore(pixi): update pixi lockfile"
+          commit-message: "chore(pixi): update pixi"
+          title: "chore(pixi): update pixi"
           body-path: diff.md
           branch: update-pixi
           base: master
