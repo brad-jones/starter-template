@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.13](https://github.com/brad-jones/starter-template/compare/288a66211c598f1cfc9ef46ed57e4b30987891bb..v0.2.13) - 2026-07-17
+#### Continuous Integration
+- (**renovate**) add note about Github App naming - ([288a662](https://github.com/brad-jones/starter-template/commit/288a66211c598f1cfc9ef46ed57e4b30987891bb)) - [@brad-jones](https://github.com/brad-jones)
+#### Miscellaneous Chores
+- (**deps**) update actions/checkout action to v7 - ([c7eecf6](https://github.com/brad-jones/starter-template/commit/c7eecf6bf9e5249f72892dd97fcb4c42440a0d9a)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.2.12](https://github.com/brad-jones/starter-template/compare/c3f65799c81a5e87fa81ca3740896aa54456d699..v0.2.12) - 2026-07-17
 #### Continuous Integration
 - (**renovate**) fix name of my custom renovate bot, attempt #2 - ([c3f6579](https://github.com/brad-jones/starter-template/commit/c3f65799c81a5e87fa81ca3740896aa54456d699)) - [@brad-jones](https://github.com/brad-jones)
