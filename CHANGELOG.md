@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.0](https://github.com/brad-jones/starter-template/compare/a484490ec630f33695a699bf29369e3183acac28..v0.3.0) - 2026-07-17
+#### Features
+- (**pixi**) include workflow changes in pixi update PR - ([a484490](https://github.com/brad-jones/starter-template/commit/a484490ec630f33695a699bf29369e3183acac28)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.2.14](https://github.com/brad-jones/starter-template/compare/8513de67c1a5ed335c4574f4febb9eed597b6b06..v0.2.14) - 2026-07-17
 #### Continuous Integration
 - (**pixi**) run the sync-gha-pixi-version script - ([8513de6](https://github.com/brad-jones/starter-template/commit/8513de67c1a5ed335c4574f4febb9eed597b6b06)) - [@brad-jones](https://github.com/brad-jones)
