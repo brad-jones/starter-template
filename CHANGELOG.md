@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.8](https://github.com/brad-jones/starter-template/compare/2c142555a16a414f942ba06a543b81a81dfd8574..v0.2.8) - 2026-07-17
+#### Continuous Integration
+- (**renovate**) authenticate with GitHub App and rerun on dashboard edits - ([2c14255](https://github.com/brad-jones/starter-template/commit/2c142555a16a414f942ba06a543b81a81dfd8574)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.2.7](https://github.com/brad-jones/starter-template/compare/fa82dba362ee85868fde5a7396132c2581210b16..v0.2.7) - 2026-07-17
 #### Miscellaneous Chores
 - (**deps**) update renovatebot/github-action action to v46.1.19 - ([9977420](https://github.com/brad-jones/starter-template/commit/9977420bc69ae2235c22597b2317bbb9b9ab3739)) - [@brad-jones](https://github.com/brad-jones)
