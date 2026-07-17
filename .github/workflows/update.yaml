@@ -104,7 +104,3 @@ jobs:
           base: master
           labels: pixi
           delete-branch: true
-          add-paths: |
-            pixi.lock
-            .github/workflows/*.yml
-            .github/workflows/*.yaml
