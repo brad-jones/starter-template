@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.3](https://github.com/brad-jones/starter-template/compare/104dcefe9ce827fe8a661910da2e3d2760ae5bd3..v0.3.3) - 2026-07-17
+#### Miscellaneous Chores
+- (**deps**) update pixi - ([104dcef](https://github.com/brad-jones/starter-template/commit/104dcefe9ce827fe8a661910da2e3d2760ae5bd3)) - brad-jones
+
+- - -
+
 ## [v0.3.2](https://github.com/brad-jones/starter-template/compare/1c15bc1cbd88780b1938a537dd9b72568adbc680..v0.3.2) - 2026-07-17
 #### Continuous Integration
 - (**pixi**) use the renovate bot github app for the pixi update too because we are now making edits to the workflow files - ([1c15bc1](https://github.com/brad-jones/starter-template/commit/1c15bc1cbd88780b1938a537dd9b72568adbc680)) - [@brad-jones](https://github.com/brad-jones)
