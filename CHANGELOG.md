@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.1](https://github.com/brad-jones/starter-template/compare/b2eac26ca0f5569619c552a97d8886a33652e2af..v0.3.1) - 2026-07-17
+#### Continuous Integration
+- remove add-paths restriction from pixi update PR - ([b2eac26](https://github.com/brad-jones/starter-template/commit/b2eac26ca0f5569619c552a97d8886a33652e2af)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.3.0](https://github.com/brad-jones/starter-template/compare/a484490ec630f33695a699bf29369e3183acac28..v0.3.0) - 2026-07-17
 #### Features
 - (**pixi**) include workflow changes in pixi update PR - ([a484490](https://github.com/brad-jones/starter-template/commit/a484490ec630f33695a699bf29369e3183acac28)) - [@brad-jones](https://github.com/brad-jones)
