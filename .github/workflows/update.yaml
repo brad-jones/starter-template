@@ -3,16 +3,30 @@ on:
   schedule:
     - cron: 0 0 * * *
 
-# NB: For this workflow to work you must tick "Allow GitHub Actions to create and approve pull requests".
+# NB: For this workflow to work with the built in GITHUB_TOKEN.
+# You must tick "Allow GitHub Actions to create and approve pull requests".
 # In the repository settings under Actions > General > Workflow permissions.
+#
+# Then you would also give the renovate job these permissions:
+#
+# ```yaml
+# permissions:
+#   issues: write
+#   contents: write
+#   pull-requests: write
+# ```
+#
+# Assuming the above is also done, using the built in GITHUB_TOKEN is sufficient
+# for Renovate to create pull requests that update anything but github actions
+# themselves, if you want Renovate to update the version of the github actions
+# used in this workflow files, you must create a personal access token with
+# the workflow scope.
+#
+# see: https://github.com/renovatebot/github-action#special-token-requirements-when-using-the-github-actions-manager
 
 jobs:
   renovate:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      contents: write
-      pull-requests: write
     steps:
       - name: ⬇️ Git Checkout
         uses: actions/checkout@v6
@@ -20,7 +34,7 @@ jobs:
       - name: 🤖 Run Renovate
         uses: renovatebot/github-action@v46.1.14
         env:
-          RENOVATE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
           RENOVATE_REPOSITORIES: ${{ github.repository }}
 
   pixi:
