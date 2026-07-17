@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.6](https://github.com/brad-jones/starter-template/compare/d43388fb088f245367ca4e1dc45682607061fb0e..v0.2.6) - 2026-07-17
+#### Continuous Integration
+- use dedicated RENOVATE_TOKEN for update workflow - ([d43388f](https://github.com/brad-jones/starter-template/commit/d43388fb088f245367ca4e1dc45682607061fb0e)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.2.5](https://github.com/brad-jones/starter-template/compare/8b785f052b52c6c6a0b35116ef9b490b50a8035c..v0.2.5) - 2026-07-17
 #### Miscellaneous Chores
 - (**pixi**) update pixi lockfile - ([8b785f0](https://github.com/brad-jones/starter-template/commit/8b785f052b52c6c6a0b35116ef9b490b50a8035c)) - brad-jones
