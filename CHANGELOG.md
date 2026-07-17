@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.14](https://github.com/brad-jones/starter-template/compare/8513de67c1a5ed335c4574f4febb9eed597b6b06..v0.2.14) - 2026-07-17
+#### Continuous Integration
+- (**pixi**) run the sync-gha-pixi-version script - ([8513de6](https://github.com/brad-jones/starter-template/commit/8513de67c1a5ed335c4574f4febb9eed597b6b06)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.2.13](https://github.com/brad-jones/starter-template/compare/288a66211c598f1cfc9ef46ed57e4b30987891bb..v0.2.13) - 2026-07-17
 #### Continuous Integration
 - (**renovate**) add note about Github App naming - ([288a662](https://github.com/brad-jones/starter-template/commit/288a66211c598f1cfc9ef46ed57e4b30987891bb)) - [@brad-jones](https://github.com/brad-jones)
