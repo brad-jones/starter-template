@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.11](https://github.com/brad-jones/starter-template/compare/0f7f6d3b2cd660f07074726cfbad117bcce062cb..v0.2.11) - 2026-07-17
+#### Continuous Integration
+- (**renovate**) fix name of my custom renovate bot - ([0f7f6d3](https://github.com/brad-jones/starter-template/commit/0f7f6d3b2cd660f07074726cfbad117bcce062cb)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.2.10](https://github.com/brad-jones/starter-template/compare/121eb918098cf382c361093b345d1c367d522d28..v0.2.10) - 2026-07-17
 #### Continuous Integration
 - (**renovate**) update Dependency Dashboard issue number after new issue created by github app - ([121eb91](https://github.com/brad-jones/starter-template/commit/121eb918098cf382c361093b345d1c367d522d28)) - [@brad-jones](https://github.com/brad-jones)
