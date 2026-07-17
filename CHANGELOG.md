@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.4](https://github.com/brad-jones/starter-template/compare/2a476a19c997b08bd3043c3713b8f86075ea4e48..v0.2.4) - 2026-07-17
+#### Miscellaneous Chores
+- (**deps**) update dependency dotnet-sdk to v10.0.302 - ([2a476a1](https://github.com/brad-jones/starter-template/commit/2a476a19c997b08bd3043c3713b8f86075ea4e48)) - github-actions[bot]
+
+- - -
+
 ## [v0.2.3](https://github.com/brad-jones/starter-template/compare/260834416369e616732889c2975f6452e7f96036..v0.2.3) - 2026-07-13
 #### Miscellaneous Chores
 - (**pixi**) update pixi lockfile - ([2608344](https://github.com/brad-jones/starter-template/commit/260834416369e616732889c2975f6452e7f96036)) - brad-jones
