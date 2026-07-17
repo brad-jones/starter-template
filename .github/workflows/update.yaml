@@ -97,11 +97,14 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v8
         with:
-          commit-message: "chore(pixi): update pixi"
-          title: "chore(pixi): update pixi"
+          commit-message: "chore(deps): update pixi"
+          title: "chore(deps): update pixi"
           body-path: diff.md
           branch: update-pixi
           base: master
           labels: pixi
           delete-branch: true
-          add-paths: pixi.lock
+          add-paths: |
+            pixi.lock
+            .github/workflows/*.yml
+            .github/workflows/*.yaml
