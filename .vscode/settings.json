@@ -57,6 +57,10 @@
   "deno.enable": true,
   "deno.cacheOnSave": true,
 
+  // Don't automatically activate the venv in the terminal, we control that ourselves through pixi config.
+  "python.terminal.activateEnvironment": false,
+  "python.terminal.useEnvFile": false,
+
   // Make VsCode use bash instead of non POSIX compliant shells like fish
   "terminal.integrated.automationProfile.linux": {
     "path": "/bin/bash"
