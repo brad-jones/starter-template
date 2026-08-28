@@ -65,5 +65,20 @@
   // Make CoPilot use bash instead of non POSIX compliant shells like fish
   "chat.tools.terminal.terminalProfile.linux": {
     "path": "/bin/bash"
-  }
+  },
+
+  // *nix OSes work well with https://direnv.net/
+  // https://pixi.prefix.dev/latest/integration/editor/vscode/#direnv-extension
+  // But direnv support on Windows is buggy, instead this custom terminal profile works for Windows users.
+  "terminal.integrated.profiles.windows": {
+    "Powershell (pixi)": {
+      "path": "powershell.exe",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "pixi shell"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Powershell (pixi)"
 }
