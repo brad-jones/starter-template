@@ -22,7 +22,7 @@
 
 # Scope: project, global
 
-# 
+#
 
 # xcaffold init
 
@@ -40,7 +40,7 @@
 
 # Scope: project, global
 
-# 
+#
 
 # xcaffold apply
 
@@ -70,7 +70,7 @@
 
 # Scope: project, global
 
-# 
+#
 
 # xcaffold validate
 
@@ -82,7 +82,7 @@
 
 # Scope: project, global
 
-# 
+#
 
 # xcaffold status
 
@@ -96,7 +96,7 @@
 
 # Scope: project
 
-# 
+#
 
 # xcaffold import
 
@@ -126,7 +126,7 @@
 
 # Scope: project, global
 
-# 
+#
 
 # xcaffold graph
 
@@ -154,7 +154,7 @@
 
 # Scope: project, global
 
-# 
+#
 
 # xcaffold list
 
@@ -164,7 +164,7 @@
 
 # Typical development loop:
 
-# 
+#
 
 # xcaffold init --target claude # 1. bootstrap
 
@@ -180,7 +180,7 @@
 
 # ── Generated Layout ─────────────────────────────────────────
 
-# 
+#
 
 # my-project/
 

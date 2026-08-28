@@ -13,34 +13,52 @@
 # ============================================================
 
 ---
-kind: workflow
-version: "1.0"
+
+kind: workflow version: "1.0"
 
 # ── Identity ─────────────────────────────────────────────────
-name: my-workflow # REQUIRED. Lowercase + hyphens. Pattern: ^[a-z0-9-]+$
-description: "..." # Optional. What this workflow does.
+
+name: my-workflow # REQUIRED. Lowercase + hyphens. Pattern: ^[a-z0-9-]+$ description: "..." # Optional. What this
+workflow does.
 
 # ── Multi-Target (per-provider overrides) ────────────────────
+
 # targets: per-provider overrides and lowering-strategy directives.
+
 # targets:
-#   claude:
-#     instructions-override: |
-#       Claude-specific version of this workflow.
+
+# claude:
+
+# instructions-override: |
+
+# Claude-specific version of this workflow.
 
 # ── Steps (mutually exclusive with body) ─────────────────────
+
 # steps: ordered procedural body for multi-step workflows.
+
 # Mutually exclusive with the top-level body below.
+
 # Each step requires a name field.
+
 # Step bodies are populated by the parser from ## heading content.
+
 #
+
 # steps:
-#   - name: step-one
-#     description: "First step."
-#     # body is populated by the parser from ## step-one heading content
-#   - name: step-two
-#     description: "Second step."
+
+# - name: step-one
+
+# description: "First step."
+
+# # body is populated by the parser from ## step-one heading content
+
+# - name: step-two
+
+# description: "Second step."
 
 # ── Instructions (mutually exclusive with steps) ──────────────
+
 ---
 
 Top-level workflow instructions here. This is the body for single-step or legacy workflows.

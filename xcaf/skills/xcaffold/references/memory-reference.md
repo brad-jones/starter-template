@@ -20,7 +20,7 @@
 
 # under xcaf/agents/<agent-id>/memory/ automatically.
 
-# 
+#
 
 # Memory has NO targets (per-provider overrides).
 
@@ -28,28 +28,33 @@
 
 # ============================================================
 
-# 
+#
 
 # File convention: xcaf/agents/<agent-id>/memory/<id>.md
 
 # Example: xcaf/agents/xaff/memory/project-context.md
 
-# 
+#
 
 # ── Frontmatter Fields ───────────────────────────────────────
 
 ---
-kind: memory
-version: "1.0"
+
+kind: memory version: "1.0"
 
 # ── Identity ─────────────────────────────────────────────────
-name: my-memory-entry # REQUIRED. Lowercase + hyphens. Pattern: ^[a-z0-9-]+$
-description: "..." # Optional. What this memory entry contains.
+
+name: my-memory-entry # REQUIRED. Lowercase + hyphens. Pattern: ^[a-z0-9-]+$ description: "..." # Optional. What this
+memory entry contains.
 
 # ── Content (compiler-populated) ─────────────────────────────
+
 # The content field is NOT a YAML field — it is populated by the
+
 # compiler's filesystem scan at compile time from the markdown body below.
+
 # Do NOT set content: in the frontmatter. Write your content below ---.
+
 ---
 
 Your memory content goes here. This plain markdown text becomes the content of the compiled memory entry injected into

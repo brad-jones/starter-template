@@ -79,7 +79,7 @@ ConfigChange: - hooks: - type: command command: "on-config-change.sh"
 
 # Every handler requires a type field. Available types vary by provider.
 
-# 
+#
 
 # type: command — run a shell command
 
@@ -87,7 +87,7 @@ ConfigChange: - hooks: - type: command command: "on-config-change.sh"
 
 # shell: bash
 
-# 
+#
 
 # type: prompt — inject a prompt into the conversation
 
@@ -95,7 +95,7 @@ ConfigChange: - hooks: - type: command command: "on-config-change.sh"
 
 # model: "claude-sonnet-4-6"
 
-# 
+#
 
 # type: url — HTTP callback
 
