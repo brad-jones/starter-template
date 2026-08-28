@@ -3,14 +3,16 @@
 pre-commit:
   scripts:
     "fix-script-execute-bit.ts":
-      runner: deno run -qA
+      runner: pixi run deno run -qA
       stage_fixed: true
   commands:
     dprint:
-      run: dprint fmt --allow-no-files {staged_files}
+      run: pixi run dprint fmt --allow-no-files {staged_files}
       stage_fixed: true
+    lint:
+      run: pixi run task lint
 
 commit-msg:
   commands:
     lint:
-      run: cog verify -f {1}
+      run: pixi run cog verify -f {1}
