@@ -9,17 +9,49 @@ shopt: [globstar]
 tasks:
   init:
     desc: Setup dev env (anything that pixi can't install and setup for us).
-    status:
-      - test "$DIRENV_INIT" = "1"
+    deps: [init:xcaffold, init:lefthook, init:dotnet]
     cmds:
-      - xcaffold apply --yes
-      - "{{if not .CI}}lefthook install -f{{end}}"
-      - dotnetup install 10
       - git config pull.rebase true
       - '{{if not .CI}}git config core.editor "code --wait"{{end}}'
       - '{{if not .CI}}git config commit.template "$PWD/.gitmsgtpl"{{end}}'
       - "{{if .CI}}git config --global user.name github-actions[bot]{{end}}"
       - "{{if .CI}}git config --global user.email github-actions[bot]@users.noreply.github.com{{end}}"
+
+  init:xcaffold:
+    internal: true
+    sources:
+      - ./xcaf/**/*
+      - ./project.xcaf
+    cmds:
+      - xcaffold apply --yes
+
+  init:lefthook:
+    if: '! [ "$CI" = "true" ]'
+    internal: true
+    sources:
+      - lefthook.yaml
+    cmds:
+      - lefthook install -f
+
+  init:dotnet:
+    internal: true
+    cmds:
+      - task: init:dotnetup
+      - task: init:dotnet-tools
+
+  init:dotnetup:
+    internal: true
+    sources:
+      - global.json
+    cmds:
+      - dotnetup install 10
+
+  init:dotnet-tools:
+    internal: true
+    sources:
+      - dotnet-tools.json
+    cmds:
+      - dotnet tool restore
 
   update:
     desc: Interactively updates our dependencies to their latest versions.
