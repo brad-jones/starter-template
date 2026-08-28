@@ -57,8 +57,13 @@
   "deno.enable": true,
   "deno.cacheOnSave": true,
 
-  // Make CoPilot use bash instead of non POSIX compliant shells like fish
+  // Make VsCode use bash instead of non POSIX compliant shells like fish
   "terminal.integrated.automationProfile.linux": {
+    "path": "/bin/bash"
+  },
+
+  // Make CoPilot use bash instead of non POSIX compliant shells like fish
+  "chat.tools.terminal.terminalProfile.linux": {
     "path": "/bin/bash"
   }
 }
