@@ -13,11 +13,21 @@
   "markdown": {
     "deno": true
   },
+  "ruff": {
+    "associations": ["**/*.py"],
+    "indentWidth": 2
+  },
   "exec": {
     "cwd": "${configDir}",
+    "associations": ["**/*.go", "**/*.cs", "**/*.py"],
     "commands": [
       { "command": "gofmt", "stdin": true, "exts": ["go"] },
-      { "command": "dotnet csharpier format", "stdin": true, "exts": ["cs"] }
+      { "command": "dotnet csharpier format", "stdin": true, "exts": ["cs"] },
+      {
+        "command": "ruff check --select I --stdin-filename {{file_path}} --fix -",
+        "exts": ["py"],
+        "stdin": true
+      }
     ]
   },
   "includes": [
@@ -29,6 +39,7 @@
     "CHANGELOG.md"
   ],
   "plugins": [
+    "npm:@dprint/ruff@0.8.3",
     "npm:@dprint/toml@0.8.0",
     "npm:@dprint/typescript@0.96.1",
     "npm:@dprint/json@0.23.0",

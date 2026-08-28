@@ -9,7 +9,7 @@ shopt: [globstar]
 tasks:
   init:
     desc: Setup dev env (anything that pixi can't install and setup for us).
-    deps: [init:xcaffold, init:lefthook, init:dotnet]
+    deps: [init:xcaffold, init:lefthook, init:dotnet, init:python]
     cmds:
       - git config pull.rebase true
       - '{{if not .CI}}git config core.editor "code --wait"{{end}}'
@@ -53,6 +53,13 @@ tasks:
     cmds:
       - dotnet tool restore
 
+  init:python:
+    internal: true
+    sources:
+      - uv.lock
+    cmds:
+      - uv sync
+
   update:
     desc: Interactively updates our dependencies to their latest versions.
     summary: |
@@ -71,13 +78,35 @@ tasks:
 
   lint:
     desc: Lints our code to ensure it remains of a high quality.
+    silent: true
     cmds:
-      - dprint check
+      - |
+        failed=0
+        dprint check || failed=1
+        ruff check || failed=1
+        pyright || failed=1
+        exit $failed
+
+  lint-fix:
+    desc: Attempts to fix any linting issues, reverting all changes if verification fails afterwards.
+    cmds:
+      - task: test
+      - deno run -A ./scripts/save-state.ts
+      - defer: >-
+          deno run -A ./scripts/restore-state.ts
+          --verify-with "task test lint"
+      - dprint fmt
+      - ruff check --fix --unsafe-fix
 
   fmt:
     desc: Formats our code to ensure it looks consistent.
     cmds:
       - dprint fmt
+
+  test:
+    desc: Runs our test suites to ensure our code is working as expected.
+    cmds:
+      - 'echo "TODO: Run your test suites here."'
 
   package:
     desc: This is triggered by cog as a pre_bump_hook to generate all the final publishable artifacts
