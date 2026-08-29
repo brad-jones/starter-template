@@ -55,7 +55,7 @@ jobs:
     # box" checkbox on a PR that Renovate itself opened.
     if: |
       (github.event_name != 'issues' || github.event.issue.number == 15)
-      && (github.event_name != 'pull_request' || (github.event.pull_request.user.login == 'brads-renovate-bot[bot]' && contains(github.event.pull_request.body, '- [x] <!-- rebase-check -->')))
+      && (github.event_name != 'pull_request' || (github.event.pull_request.user.login == 'brads-renovate-bot[bot]' && contains(github.event.pull_request.body || '', '- [x] <!-- rebase-check -->')))
       && github.event.sender.login != 'brads-renovate-bot[bot]'
     runs-on: ubuntu-latest
     steps:
