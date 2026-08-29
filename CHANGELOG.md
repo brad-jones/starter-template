@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.0](https://github.com/brad-jones/starter-template/compare/c8d3b75083d0e76db7bbcb31c524a205ae9a81fc..v0.5.0) - 2026-08-29
+#### Features
+- (**ci**) trigger renovate workflow on rebase/retry checkbox (#26) - ([c8d3b75](https://github.com/brad-jones/starter-template/commit/c8d3b75083d0e76db7bbcb31c524a205ae9a81fc)) - [@brad-jones](https://github.com/brad-jones), Claude, Copilot Autofix powered by AI
+
+- - -
+
 ## [v0.4.5](https://github.com/brad-jones/starter-template/compare/69ab3890cd5ebb8a0469b89ebd00eb39c6113886..v0.4.5) - 2026-08-29
 #### Miscellaneous Chores
 - (**deps**) update prefix-dev/setup-pixi action to v0.10.2 - ([814aae4](https://github.com/brad-jones/starter-template/commit/814aae40012f2cc00301ea8d756887f06571060f)) - brads-renovate-bot[bot]
