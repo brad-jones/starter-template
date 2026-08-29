@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.4](https://github.com/brad-jones/starter-template/compare/3135e21f3246e3c0308ab56a34907271c998595d..v0.4.4) - 2026-08-29
+#### Miscellaneous Chores
+- (**apm**) added cocogitto skill - ([3135e21](https://github.com/brad-jones/starter-template/commit/3135e21f3246e3c0308ab56a34907271c998595d)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.4.3](https://github.com/brad-jones/starter-template/compare/7a5b5b478cf40a1441bb988edadb6d42a29f50ad..v0.4.3) - 2026-08-29
 #### Bug Fixes
 - (**scripts**) skip cog bump when HEAD is already an exact tag match - ([7a5b5b4](https://github.com/brad-jones/starter-template/commit/7a5b5b478cf40a1441bb988edadb6d42a29f50ad)) - copilot-swe-agent[bot], brad-jones
