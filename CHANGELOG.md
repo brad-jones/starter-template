@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.1](https://github.com/brad-jones/starter-template/compare/c0faddbb2f58422605fdfa336426c09f1f67525d..v0.5.1) - 2026-08-29
+#### Bug Fixes
+- (**hooks**) guard unset CLAUDE_CODE_REMOTE under set -u - ([e00d1d6](https://github.com/brad-jones/starter-template/commit/e00d1d62a904adf7727f368d4260e01daceda001)) - Claude
+- (**hooks**) restore exec bit on session-start.sh, widen auto-fix filter - ([c0faddb](https://github.com/brad-jones/starter-template/commit/c0faddbb2f58422605fdfa336426c09f1f67525d)) - Claude
+
+- - -
+
 ## [v0.5.0](https://github.com/brad-jones/starter-template/compare/c8d3b75083d0e76db7bbcb31c524a205ae9a81fc..v0.5.0) - 2026-08-29
 #### Features
 - (**ci**) trigger renovate workflow on rebase/retry checkbox (#26) - ([c8d3b75](https://github.com/brad-jones/starter-template/commit/c8d3b75083d0e76db7bbcb31c524a205ae9a81fc)) - [@brad-jones](https://github.com/brad-jones), Claude, Copilot Autofix powered by AI
