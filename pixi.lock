@@ -60,7 +60,7 @@ environments:
       - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.6-h81b34b9_4.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.56.1-h81b34b9_3.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.11-h81b34b9_2.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.12-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/skopeo-1.24.0-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/task-3.53.1-h81b34b9_2.conda
 packages:
@@ -669,13 +669,13 @@ packages:
   run_exports: {}
   size: 7166107
   timestamp: 1787358561602
-- conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.11-h81b34b9_2.conda
-  sha256: 4b063837d601dd73af7292dd381eed2dce8e6d146c3bbc2fe29c68435180d957
-  md5: 39f177edc4c9caa1cfaaaa3dc5c2982e
+- conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.12-h81b34b9_2.conda
+  sha256: e3b19997f65c56acb151ea71713dcf53a183e57589fc75039eabf7ab36a2604a
+  md5: 90517dda779cb2290b9584f5d0a9f4a3
   license: MIT
   run_exports: {}
-  size: 5184654
-  timestamp: 1787358585657
+  size: 5186891
+  timestamp: 1787974745577
 - conda: https://prefix.dev/brads-forge/linux-64/skopeo-1.24.0-h81b34b9_0.conda
   sha256: c045d20f5924e877ce607bd6d82eefcff0298c71f6ca3c4d451c773d1cf10b6b
   md5: eb1ed3df434ab88eb509dc96721086d1
