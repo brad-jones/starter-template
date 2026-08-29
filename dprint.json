@@ -36,6 +36,14 @@
   "excludes": [
     "**/.git",
     "**/.pixi",
+    "**/.venv",
+    "**/.task",
+    "**/.ruff_cache",
+    "**/apm.lock.yaml",
+    "**/pixi.lock",
+    "**/uv.lock",
+    "**/deno.lock",
+    "apm_modules/",
     "CHANGELOG.md"
   ],
   "plugins": [

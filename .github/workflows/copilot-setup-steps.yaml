@@ -23,4 +23,4 @@ jobs:
           activate-environment: true
 
       - name: 🛠️ Additional Initialization
-        run: task init
+        run: APM_TARGET=copilot task init

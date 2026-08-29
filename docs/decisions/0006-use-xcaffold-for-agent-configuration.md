@@ -1,5 +1,5 @@
 ---
-status: accepted
+status: "superseded by [ADR-0016](0016-use-apm-for-agent-configuration.md)"
 date: 2026-06-01
 ---
 

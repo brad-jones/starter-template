@@ -54,6 +54,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.7.22-hbd8a1cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.14-8_cp314.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/apm-0.28.0-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/cocogitto-7.0.0-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.81-h81b34b9_1.conda
       - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.6-h81b34b9_4.conda
@@ -62,7 +63,6 @@ environments:
       - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.11-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/skopeo-1.24.0-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/task-3.53.1-h81b34b9_2.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/xcaffold-0.16.3-h81b34b9_0.conda
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
   build_number: 20
@@ -620,6 +620,13 @@ packages:
   run_exports: {}
   size: 118849
   timestamp: 1784250406640
+- conda: https://prefix.dev/brads-forge/linux-64/apm-0.28.0-h81b34b9_0.conda
+  sha256: 830029073f7475ff0d8db3a4969e5f82e6ee1b37a6a5b9659514ceb2d76657cb
+  md5: 67ddb8adc90b4e98b861cc6167bb023b
+  license: MIT
+  run_exports: {}
+  size: 13795294
+  timestamp: 1787617560235
 - conda: https://prefix.dev/brads-forge/linux-64/cocogitto-7.0.0-h81b34b9_2.conda
   sha256: 655817874d6f83db50bd4ca60f0127f792128deb3c97404035b1751871fa1e59
   md5: 64f73ed4a83d54f435039540c7c8f5dc
@@ -683,10 +690,3 @@ packages:
   run_exports: {}
   size: 13793591
   timestamp: 1787111254554
-- conda: https://prefix.dev/brads-forge/linux-64/xcaffold-0.16.3-h81b34b9_0.conda
-  sha256: f8152987468ac38cecb6087222b20f958984ee982637c88f5f8df752e868b504
-  md5: f232053a796eea14ab3b333a948862d9
-  license: MIT
-  run_exports: {}
-  size: 4018922
-  timestamp: 1787716082996

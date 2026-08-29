@@ -9,7 +9,7 @@ shopt: [globstar]
 tasks:
   init:
     desc: Setup dev env (anything that pixi can't install and setup for us).
-    deps: [init:xcaffold, init:lefthook, init:dotnet, init:python]
+    deps: [init:apm, init:lefthook, init:dotnet, init:python]
     cmds:
       - git config pull.rebase true
       - '{{if not .CI}}git config core.editor "code --wait"{{end}}'
@@ -17,13 +17,14 @@ tasks:
       - "{{if .CI}}git config --global user.name github-actions[bot]{{end}}"
       - "{{if .CI}}git config --global user.email github-actions[bot]@users.noreply.github.com{{end}}"
 
-  init:xcaffold:
+  init:apm:
     internal: true
     sources:
-      - ./xcaf/**/*
-      - ./project.xcaf
+      - ./.apm/**/*
+      - apm.lock.yaml
     cmds:
-      - xcaffold apply --yes
+      - apm install {{if .APM_TARGET}}--target {{.APM_TARGET}}{{end}}
+      - apm compile --clean {{if .APM_TARGET}}--target {{.APM_TARGET}}{{end}}
 
   init:lefthook:
     if: '! [ "$CI" = "true" ]'

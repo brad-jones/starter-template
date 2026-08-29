@@ -1,4 +1,4 @@
-# spec: https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+# yaml-language-server: $schema=https://raw.githubusercontent.com/evilmartians/lefthook/refs/heads/master/schema.json
 
 pre-commit:
   scripts:
