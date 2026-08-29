@@ -50,9 +50,9 @@ jobs:
     #
     # Or otherwise update it to the name of the identity that Renovate runs as.
     #
-    # The pull_request trigger fires for any edit to a Renovate PR, but we only want
-    # to re-run when someone ticks the "If you want to rebase/retry this PR, check this
-    # box" checkbox on a PR that Renovate itself opened.
+    # The pull_request trigger fires for any PR edit, but we only want to re-run Renovate
+    # when someone ticks the "If you want to rebase/retry this PR, check this box" checkbox
+    # on a PR that Renovate itself opened.
     if: |
       (github.event_name != 'issues' || github.event.issue.number == 15)
       && (github.event_name != 'pull_request' || (github.event.pull_request.user.login == 'brads-renovate-bot[bot]' && contains(github.event.pull_request.body || '', '- [x] <!-- rebase-check -->')))
