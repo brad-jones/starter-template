@@ -126,7 +126,7 @@ apm_modules/
 !.claude/hooks/
 !.claude/hooks/session-start.sh
 .github/*
-!.github/workflows/*
+!.github/workflows/
 .vscode/mcp.json
 .mcp.json
 CLAUDE.md
