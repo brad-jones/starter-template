@@ -3,9 +3,7 @@ import { $ } from "@david/dax";
 
 await Promise.all(
   (await $`git ls-files --stage`.lines())
-    .filter((line) =>
-      line.includes("scripts/") || line.includes(".lefthook/") || line.includes(".claude/hooks/")
-    )
+    .filter((line) => line.includes("scripts/") || line.includes(".lefthook/") || line.includes(".claude/hooks/"))
     .filter((line) => line.startsWith("100644"))
     .map((line) => line.match(/\d+\s[a-z0-9]+\s\d\s+(.*)/)?.at(1))
     .filter((match) => typeof match === "string")
