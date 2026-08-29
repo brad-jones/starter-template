@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.3](https://github.com/brad-jones/starter-template/compare/3631d72462f9cda9e55fe6830bbd9a913b6ee02e..v0.5.3) - 2026-08-29
+#### Bug Fixes
+- (**agents**) use pixi run instead of pixi exec - ([3631d72](https://github.com/brad-jones/starter-template/commit/3631d72462f9cda9e55fe6830bbd9a913b6ee02e)) - [@brad-jones](https://github.com/brad-jones)
+#### Continuous Integration
+- add a pull request check workflow - ([52038f1](https://github.com/brad-jones/starter-template/commit/52038f15d25c3abdedadf7cefc2be8f4058d5cf8)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.5.2](https://github.com/brad-jones/starter-template/compare/a86621a7d12ef6dd81aa38019a4ffb0ffa54c4d8..v0.5.2) - 2026-08-29
 #### Build system
 - (**renovate**) enable pep621 manager for python packages - ([a86621a](https://github.com/brad-jones/starter-template/commit/a86621a7d12ef6dd81aa38019a4ffb0ffa54c4d8)) - Claude
