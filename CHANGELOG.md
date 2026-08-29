@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.2](https://github.com/brad-jones/starter-template/compare/a86621a7d12ef6dd81aa38019a4ffb0ffa54c4d8..v0.5.2) - 2026-08-29
+#### Build system
+- (**renovate**) enable pep621 manager for python packages - ([a86621a](https://github.com/brad-jones/starter-template/commit/a86621a7d12ef6dd81aa38019a4ffb0ffa54c4d8)) - Claude
+
+- - -
+
 ## [v0.5.1](https://github.com/brad-jones/starter-template/compare/c0faddbb2f58422605fdfa336426c09f1f67525d..v0.5.1) - 2026-08-29
 #### Bug Fixes
 - (**hooks**) guard unset CLAUDE_CODE_REMOTE under set -u - ([e00d1d6](https://github.com/brad-jones/starter-template/commit/e00d1d62a904adf7727f368d4260e01daceda001)) - Claude
