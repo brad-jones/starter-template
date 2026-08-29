@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Only run on Claude Code Remote sessions
 # Direnv will handle the local environment setup.
-if [ "$CLAUDE_CODE_REMOTE" != "true" ]; then
+if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
 fi
 
