@@ -9,8 +9,11 @@ shopt: [globstar]
 tasks:
   init:
     desc: Setup dev env (anything that pixi can't install and setup for us).
-    deps: [init:apm, init:lefthook, init:dotnet, init:python]
     cmds:
+      - task: init:lefthook
+      - task: init:apm
+      - task: init:dotnet
+      - task: init:python
       - git config pull.rebase true
       - '{{if not .CI}}git config core.editor "code --wait"{{end}}'
       - '{{if not .CI}}git config commit.template "$PWD/.gitmsgtpl"{{end}}'
