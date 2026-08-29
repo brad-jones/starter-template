@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.3](https://github.com/brad-jones/starter-template/compare/7a5b5b478cf40a1441bb988edadb6d42a29f50ad..v0.4.3) - 2026-08-29
+#### Bug Fixes
+- (**scripts**) skip cog bump when HEAD is already an exact tag match - ([7a5b5b4](https://github.com/brad-jones/starter-template/commit/7a5b5b478cf40a1441bb988edadb6d42a29f50ad)) - copilot-swe-agent[bot], brad-jones
+
+- - -
+
 ## [v0.4.2](https://github.com/brad-jones/starter-template/compare/6320422c71943c23041ef150e4be3bd5fc90e2fb..v0.4.2) - 2026-08-29
 #### Miscellaneous Chores
 - (**taskfile**) run init tasks sequentially to improve log readability - ([6320422](https://github.com/brad-jones/starter-template/commit/6320422c71943c23041ef150e4be3bd5fc90e2fb)) - [@brad-jones](https://github.com/brad-jones)
