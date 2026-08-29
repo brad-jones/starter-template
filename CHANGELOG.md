@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.5](https://github.com/brad-jones/starter-template/compare/69ab3890cd5ebb8a0469b89ebd00eb39c6113886..v0.4.5) - 2026-08-29
+#### Miscellaneous Chores
+- (**deps**) update prefix-dev/setup-pixi action to v0.10.2 - ([814aae4](https://github.com/brad-jones/starter-template/commit/814aae40012f2cc00301ea8d756887f06571060f)) - brads-renovate-bot[bot]
+- (**deps**) update pixi - ([69ab389](https://github.com/brad-jones/starter-template/commit/69ab3890cd5ebb8a0469b89ebd00eb39c6113886)) - brad-jones
+
+- - -
+
 ## [v0.4.4](https://github.com/brad-jones/starter-template/compare/3135e21f3246e3c0308ab56a34907271c998595d..v0.4.4) - 2026-08-29
 #### Miscellaneous Chores
 - (**apm**) added cocogitto skill - ([3135e21](https://github.com/brad-jones/starter-template/commit/3135e21f3246e3c0308ab56a34907271c998595d)) - [@brad-jones](https://github.com/brad-jones)
