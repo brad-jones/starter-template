@@ -2,6 +2,29 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.0](https://github.com/brad-jones/starter-template/compare/7b7d3e241405f26f9b7b622fcfbd17b915d9f1de..v0.4.0) - 2026-08-29
+#### Features
+- (**agents**) migrate from xcaffold to apm for agent configuration - ([9c7522b](https://github.com/brad-jones/starter-template/commit/9c7522b72bb0ee161c1670f7913187276eb74de0)) - [@brad-jones](https://github.com/brad-jones)
+- (**vscode**) disable python venv activation - ([8890c1d](https://github.com/brad-jones/starter-template/commit/8890c1d505dcc2d458dc728a924c0aff90424b6a)) - [@brad-jones](https://github.com/brad-jones)
+- (**vscode**) add custom terminal profile for powershell - ([5d36f59](https://github.com/brad-jones/starter-template/commit/5d36f590143e9e5c29de0c137e94dc935a4ed754)) - [@brad-jones](https://github.com/brad-jones)
+- add Python tooling support with uv, ruff, and pyright - ([79d0281](https://github.com/brad-jones/starter-template/commit/79d028188dbc93547b522aa4deab90ad8dfccc79)) - [@brad-jones](https://github.com/brad-jones)
+#### Bug Fixes
+- (**init**) the DIRENV_INIT check never really worked, use GoTasks checksum based cache instead - ([b227b9e](https://github.com/brad-jones/starter-template/commit/b227b9e4611cf7adb8e8f7afff63a7fcf2c6ba5d)) - [@brad-jones](https://github.com/brad-jones)
+- (**lefthook**) run lint task on pre-commit - ([dd02093](https://github.com/brad-jones/starter-template/commit/dd02093efdc856f2a85ac4fcfbaadc6f667ee241)) - [@brad-jones](https://github.com/brad-jones)
+- (**vscode**) finally figured out how to make copilot not use fish - ([e2869be](https://github.com/brad-jones/starter-template/commit/e2869bec4cac1995fb4d44a9eb8189877405ec65)) - [@brad-jones](https://github.com/brad-jones)
+#### Documentation
+- silence direnv chatter for AI agents - ([3ebc82f](https://github.com/brad-jones/starter-template/commit/3ebc82f583b59212c6642b308d609c50d7c3ebb6)) - [@brad-jones](https://github.com/brad-jones)
+#### Miscellaneous Chores
+- (**deps**) update renovatebot/github-action action to v46.2.4 - ([c1f6667](https://github.com/brad-jones/starter-template/commit/c1f666768a3faea9c29e7ae0c584e9ad22f66f03)) - brads-renovate-bot[bot]
+- (**deps**) update prefix-dev/setup-pixi action to v0.10.1 - ([85cc2c7](https://github.com/brad-jones/starter-template/commit/85cc2c7530aa761a3137199a8e4e78ff341c3711)) - brads-renovate-bot[bot]
+- (**deps**) update dependency dotnet-sdk to v10.0.400 - ([dcd827c](https://github.com/brad-jones/starter-template/commit/dcd827c40f4d46bfc62bef5700ae750cdc91f16f)) - brads-renovate-bot[bot]
+- (**deps**) update pixi - ([7b7d3e2](https://github.com/brad-jones/starter-template/commit/7b7d3e241405f26f9b7b622fcfbd17b915d9f1de)) - brad-jones
+- (**pixi**) bump all versions - ([5d07c43](https://github.com/brad-jones/starter-template/commit/5d07c43377306dc740e8f68a568bcd95c1cf8349)) - [@brad-jones](https://github.com/brad-jones)
+#### Style
+- (**dprint**) update to latest version, apply new formatting and fix csharpier integration - ([9de4d1b](https://github.com/brad-jones/starter-template/commit/9de4d1bd6776b812579e0f222454bec960cffd59)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.3.4](https://github.com/brad-jones/starter-template/compare/97dc4ec6d7772ef1276d3325d0a09fc4fafa2021..v0.3.4) - 2026-07-22
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([5c0fea2](https://github.com/brad-jones/starter-template/commit/5c0fea221fad4d83f84e96ca25540a465af68cbb)) - brad-jones
