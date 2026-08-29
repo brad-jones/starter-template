@@ -505,7 +505,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:6959c89306dad564e3c22d561eeccafde5b2dec4d9d79c0639079265536044d7
+  content_hash: sha256:8af45fe4591f6eabbdd2ab1ff9265e589c4da16d194e32bfff29d34e32cd3557
 - kind: project-relative
   target: claude
   value: .claude/skills/adr
@@ -2026,7 +2026,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b2420352327723638d82b9c19e897418464af347cb78901323b4f313e61e1227
+  content_hash: sha256:703986bbcea17220d52fcc6ef6b20b497e0341a26912d437b914bb956c9f1b81
 local_deployed_files:
 - .agents/skills/adr
 - .agents/skills/adr/SKILL.md
@@ -2068,7 +2068,7 @@ local_deployed_file_hashes:
   .agents/skills/cocogitto/references/config-reference.md: sha256:9a7af8520dca48ff5e600d1025ef248434d729525acfd7dac62c42d859475764
   .agents/skills/lefthook/SKILL.md: sha256:c9e39b9ddeea238d575a163add754a39e194d315c5ab83955ffb5059035cc435
   .agents/skills/task/SKILL.md: sha256:bbb1bf79b41da2193cfef9e6652ea370c5cbaf71bca5b7473042bf8ab3a08326
-  .claude/rules/workspace.md: sha256:6959c89306dad564e3c22d561eeccafde5b2dec4d9d79c0639079265536044d7
+  .claude/rules/workspace.md: sha256:8af45fe4591f6eabbdd2ab1ff9265e589c4da16d194e32bfff29d34e32cd3557
   .claude/skills/adr/SKILL.md: sha256:06ec72317c3ef7085b3c76d608a08bdb69af3ea9a6cfcc51a0fa71ff8fb53868
   .claude/skills/adr/references/adr-template-minimal.md: sha256:fdacd20ca99df002451fa8724e7b0b204c252604b586fafbfb60bbbf28a47a9f
   .claude/skills/adr/references/adr-template.md: sha256:1dd2cbf38d24ceb5f7248b2e91358c8186ea6c318f036aa29b7e039c09f0cafb
@@ -2078,4 +2078,4 @@ local_deployed_file_hashes:
   .claude/skills/cocogitto/references/config-reference.md: sha256:9a7af8520dca48ff5e600d1025ef248434d729525acfd7dac62c42d859475764
   .claude/skills/lefthook/SKILL.md: sha256:c9e39b9ddeea238d575a163add754a39e194d315c5ab83955ffb5059035cc435
   .claude/skills/task/SKILL.md: sha256:bbb1bf79b41da2193cfef9e6652ea370c5cbaf71bca5b7473042bf8ab3a08326
-  .github/instructions/workspace.instructions.md: sha256:b2420352327723638d82b9c19e897418464af347cb78901323b4f313e61e1227
+  .github/instructions/workspace.instructions.md: sha256:703986bbcea17220d52fcc6ef6b20b497e0341a26912d437b914bb956c9f1b81

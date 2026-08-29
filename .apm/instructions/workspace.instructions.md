@@ -13,8 +13,8 @@ information about APM can be found in the `apm` skill.
 ### Pixi Development Environment
 
 This repo is built on [pixi](https://pixi.prefix.dev/latest/). All tooling is managed via `pixi.toml`. Always prefix
-commands with `pixi exec` (eg: `pixi exec -- deno run foo.ts`) to ensure the correct environment is used. More
-information about pixi can be found in the `pixi` skill.
+commands with `pixi run` (eg: `pixi run -- deno run foo.ts`) to ensure the correct environment is used. More information
+about pixi can be found in the `pixi` skill.
 
 #### Downloaded Dependencies
 
