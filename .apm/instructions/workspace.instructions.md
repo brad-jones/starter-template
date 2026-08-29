@@ -18,8 +18,8 @@ information about pixi can be found in the `pixi` skill.
 
 #### Downloaded Dependencies
 
-**IMPORTANT: Never search the entire root filesystem for dependencies! eg: `find / -name "foo" -type f`.** This is too
-slow. Anything you might be looking for is likely cached inside `./.pixi`.
+**IMPORTANT: Never search the entire root filesystem for dependencies! eg: Any command starting with `find /` is
+expressly forbidden. This is too slow.**
 
 ##### Deno Module Cache Location
 

@@ -427,6 +427,42 @@ deployments:
   content_hash: sha256:2a467a2b87a4cc4d44859790f77f824165e77b61077017d25f9db95d124130c1
 - kind: project-relative
   target: agents
+  value: .agents/skills/cocogitto
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/cocogitto/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:5cd8de9b2146a8f7624be9e0b176ca8fb57e6a9a891233d59714537243f98167
+- kind: project-relative
+  target: agents
+  value: .agents/skills/cocogitto/references/changelog-templates.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:e6404f92f068281f7b718c119e67b5109e8d3bc3102bbf301bd4159f02bb46f9
+- kind: project-relative
+  target: agents
+  value: .agents/skills/cocogitto/references/config-reference.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9a7af8520dca48ff5e600d1025ef248434d729525acfd7dac62c42d859475764
+- kind: project-relative
+  target: agents
   value: .agents/skills/lefthook
   runtime: null
   scope: project
@@ -469,7 +505,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:36a9b8f631f0e292fd4e52f9ac53588e6ab21117f3be3e61dd0ff0a632d3c861
+  content_hash: sha256:6959c89306dad564e3c22d561eeccafde5b2dec4d9d79c0639079265536044d7
 - kind: project-relative
   target: claude
   value: .claude/skills/adr
@@ -524,6 +560,42 @@ deployments:
   - .
   active_owner: .
   content_hash: sha256:2a467a2b87a4cc4d44859790f77f824165e77b61077017d25f9db95d124130c1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cocogitto
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cocogitto/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:5cd8de9b2146a8f7624be9e0b176ca8fb57e6a9a891233d59714537243f98167
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cocogitto/references/changelog-templates.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:e6404f92f068281f7b718c119e67b5109e8d3bc3102bbf301bd4159f02bb46f9
+- kind: project-relative
+  target: claude
+  value: .claude/skills/cocogitto/references/config-reference.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9a7af8520dca48ff5e600d1025ef248434d729525acfd7dac62c42d859475764
 - kind: project-relative
   target: claude
   value: .claude/skills/coding-standards
@@ -1954,7 +2026,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:d2a941b4719232e9f8e1c015095423730ce84e0ed79207677df13d1afa29ce04
+  content_hash: sha256:b2420352327723638d82b9c19e897418464af347cb78901323b4f313e61e1227
 local_deployed_files:
 - .agents/skills/adr
 - .agents/skills/adr/SKILL.md
@@ -1962,6 +2034,10 @@ local_deployed_files:
 - .agents/skills/adr/references/adr-template.md
 - .agents/skills/apm
 - .agents/skills/apm/SKILL.md
+- .agents/skills/cocogitto
+- .agents/skills/cocogitto/SKILL.md
+- .agents/skills/cocogitto/references/changelog-templates.md
+- .agents/skills/cocogitto/references/config-reference.md
 - .agents/skills/lefthook
 - .agents/skills/lefthook/SKILL.md
 - .agents/skills/task
@@ -1973,6 +2049,10 @@ local_deployed_files:
 - .claude/skills/adr/references/adr-template.md
 - .claude/skills/apm
 - .claude/skills/apm/SKILL.md
+- .claude/skills/cocogitto
+- .claude/skills/cocogitto/SKILL.md
+- .claude/skills/cocogitto/references/changelog-templates.md
+- .claude/skills/cocogitto/references/config-reference.md
 - .claude/skills/lefthook
 - .claude/skills/lefthook/SKILL.md
 - .claude/skills/task
@@ -1983,13 +2063,19 @@ local_deployed_file_hashes:
   .agents/skills/adr/references/adr-template-minimal.md: sha256:fdacd20ca99df002451fa8724e7b0b204c252604b586fafbfb60bbbf28a47a9f
   .agents/skills/adr/references/adr-template.md: sha256:1dd2cbf38d24ceb5f7248b2e91358c8186ea6c318f036aa29b7e039c09f0cafb
   .agents/skills/apm/SKILL.md: sha256:2a467a2b87a4cc4d44859790f77f824165e77b61077017d25f9db95d124130c1
+  .agents/skills/cocogitto/SKILL.md: sha256:5cd8de9b2146a8f7624be9e0b176ca8fb57e6a9a891233d59714537243f98167
+  .agents/skills/cocogitto/references/changelog-templates.md: sha256:e6404f92f068281f7b718c119e67b5109e8d3bc3102bbf301bd4159f02bb46f9
+  .agents/skills/cocogitto/references/config-reference.md: sha256:9a7af8520dca48ff5e600d1025ef248434d729525acfd7dac62c42d859475764
   .agents/skills/lefthook/SKILL.md: sha256:c9e39b9ddeea238d575a163add754a39e194d315c5ab83955ffb5059035cc435
   .agents/skills/task/SKILL.md: sha256:bbb1bf79b41da2193cfef9e6652ea370c5cbaf71bca5b7473042bf8ab3a08326
-  .claude/rules/workspace.md: sha256:36a9b8f631f0e292fd4e52f9ac53588e6ab21117f3be3e61dd0ff0a632d3c861
+  .claude/rules/workspace.md: sha256:6959c89306dad564e3c22d561eeccafde5b2dec4d9d79c0639079265536044d7
   .claude/skills/adr/SKILL.md: sha256:06ec72317c3ef7085b3c76d608a08bdb69af3ea9a6cfcc51a0fa71ff8fb53868
   .claude/skills/adr/references/adr-template-minimal.md: sha256:fdacd20ca99df002451fa8724e7b0b204c252604b586fafbfb60bbbf28a47a9f
   .claude/skills/adr/references/adr-template.md: sha256:1dd2cbf38d24ceb5f7248b2e91358c8186ea6c318f036aa29b7e039c09f0cafb
   .claude/skills/apm/SKILL.md: sha256:2a467a2b87a4cc4d44859790f77f824165e77b61077017d25f9db95d124130c1
+  .claude/skills/cocogitto/SKILL.md: sha256:5cd8de9b2146a8f7624be9e0b176ca8fb57e6a9a891233d59714537243f98167
+  .claude/skills/cocogitto/references/changelog-templates.md: sha256:e6404f92f068281f7b718c119e67b5109e8d3bc3102bbf301bd4159f02bb46f9
+  .claude/skills/cocogitto/references/config-reference.md: sha256:9a7af8520dca48ff5e600d1025ef248434d729525acfd7dac62c42d859475764
   .claude/skills/lefthook/SKILL.md: sha256:c9e39b9ddeea238d575a163add754a39e194d315c5ab83955ffb5059035cc435
   .claude/skills/task/SKILL.md: sha256:bbb1bf79b41da2193cfef9e6652ea370c5cbaf71bca5b7473042bf8ab3a08326
-  .github/instructions/workspace.instructions.md: sha256:d2a941b4719232e9f8e1c015095423730ce84e0ed79207677df13d1afa29ce04
+  .github/instructions/workspace.instructions.md: sha256:b2420352327723638d82b9c19e897418464af347cb78901323b4f313e61e1227
