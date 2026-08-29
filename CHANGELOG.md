@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.1](https://github.com/brad-jones/starter-template/compare/v0.4.0..v0.4.1) - 2026-08-29
+#### Miscellaneous Chores
+- (**version**) v0.4.0 - ([6be92fe](https://github.com/brad-jones/starter-template/commit/6be92fea5b6aa89abd64c21ea25443307102ae3d)) - github-actions[bot]
+
+- - -
+
 ## [v0.4.0](https://github.com/brad-jones/starter-template/compare/7b7d3e241405f26f9b7b622fcfbd17b915d9f1de..v0.4.0) - 2026-08-29
 #### Features
 - (**agents**) migrate from xcaffold to apm for agent configuration - ([9c7522b](https://github.com/brad-jones/starter-template/commit/9c7522b72bb0ee161c1670f7913187276eb74de0)) - [@brad-jones](https://github.com/brad-jones)
