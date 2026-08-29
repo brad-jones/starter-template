@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.2](https://github.com/brad-jones/starter-template/compare/6320422c71943c23041ef150e4be3bd5fc90e2fb..v0.4.2) - 2026-08-29
+#### Miscellaneous Chores
+- (**taskfile**) run init tasks sequentially to improve log readability - ([6320422](https://github.com/brad-jones/starter-template/commit/6320422c71943c23041ef150e4be3bd5fc90e2fb)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.4.1](https://github.com/brad-jones/starter-template/compare/v0.4.0..v0.4.1) - 2026-08-29
 #### Miscellaneous Chores
 - (**version**) v0.4.0 - ([6be92fe](https://github.com/brad-jones/starter-template/commit/6be92fea5b6aa89abd64c21ea25443307102ae3d)) - github-actions[bot]
