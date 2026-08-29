@@ -66,9 +66,16 @@
     "path": "/bin/bash"
   },
 
-  // Make CoPilot use bash instead of non POSIX compliant shells like fish
+  // Make CoPilot use bash instead of non POSIX compliant shells like fish.
+  // Also silence direnv's "loading"/"export" chatter in this profile only,
+  // since it clutters tool output and confuses agents. Requires a
+  // ~/.config/direnv/direnv.toml to exist (any content) for direnv >=2.36 to
+  // honor DIRENV_LOG_FORMAT at all - see the comment in .envrc.
   "chat.tools.terminal.terminalProfile.linux": {
-    "path": "/bin/bash"
+    "path": "/bin/bash",
+    "env": {
+      "DIRENV_LOG_FORMAT": ""
+    }
   },
 
   // *nix OSes work well with https://direnv.net/
