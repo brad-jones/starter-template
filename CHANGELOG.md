@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.5](https://github.com/brad-jones/starter-template/compare/2fe6679ca4f6acdf5225fe2ae00f741a30467832..v0.5.5) - 2026-08-31
+#### Bug Fixes
+- (**envrc**) guard git rev-parse HEAD against no-commit repos - ([2fe6679](https://github.com/brad-jones/starter-template/commit/2fe6679ca4f6acdf5225fe2ae00f741a30467832)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.5.4](https://github.com/brad-jones/starter-template/compare/e79827ea1c25eb60a41e1e64e7b9583ee841eabd..v0.5.4) - 2026-08-31
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([e79827e](https://github.com/brad-jones/starter-template/commit/e79827ea1c25eb60a41e1e64e7b9583ee841eabd)) - brad-jones
