@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.4](https://github.com/brad-jones/starter-template/compare/e79827ea1c25eb60a41e1e64e7b9583ee841eabd..v0.5.4) - 2026-08-31
+#### Miscellaneous Chores
+- (**deps**) update pixi - ([e79827e](https://github.com/brad-jones/starter-template/commit/e79827ea1c25eb60a41e1e64e7b9583ee841eabd)) - brad-jones
+
+- - -
+
 ## [v0.5.3](https://github.com/brad-jones/starter-template/compare/3631d72462f9cda9e55fe6830bbd9a913b6ee02e..v0.5.3) - 2026-08-29
 #### Bug Fixes
 - (**agents**) use pixi run instead of pixi exec - ([3631d72](https://github.com/brad-jones/starter-template/commit/3631d72462f9cda9e55fe6830bbd9a913b6ee02e)) - [@brad-jones](https://github.com/brad-jones)
