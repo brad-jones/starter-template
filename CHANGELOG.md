@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.9](https://github.com/brad-jones/starter-template/compare/f78c75b25f36c54a998c0e5cc3745f89f092805a..v0.5.9) - 2026-09-06
+#### Miscellaneous Chores
+- (**deps**) update dependency @david/dax to ^0.50.0 - ([d14125e](https://github.com/brad-jones/starter-template/commit/d14125e9b86544213fda85feab290a2902db0994)) - brads-renovate-bot[bot]
+- (**deps**) update pixi - ([f78c75b](https://github.com/brad-jones/starter-template/commit/f78c75b25f36c54a998c0e5cc3745f89f092805a)) - brad-jones
+
+- - -
+
 ## [v0.5.8](https://github.com/brad-jones/starter-template/compare/f458a4bd920296c8747825f96ab824bed73abc6b..v0.5.8) - 2026-09-05
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([f458a4b](https://github.com/brad-jones/starter-template/commit/f458a4bd920296c8747825f96ab824bed73abc6b)) - brad-jones
