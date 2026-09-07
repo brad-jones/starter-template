@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.10](https://github.com/brad-jones/starter-template/compare/3caf3ee5a70e25b19fa734d2627510766d079b1f..v0.5.10) - 2026-09-07
+#### Miscellaneous Chores
+- (**deps**) update renovatebot/github-action action to v46.2.6 - ([3caf3ee](https://github.com/brad-jones/starter-template/commit/3caf3ee5a70e25b19fa734d2627510766d079b1f)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.5.9](https://github.com/brad-jones/starter-template/compare/f78c75b25f36c54a998c0e5cc3745f89f092805a..v0.5.9) - 2026-09-06
 #### Miscellaneous Chores
 - (**deps**) update dependency @david/dax to ^0.50.0 - ([d14125e](https://github.com/brad-jones/starter-template/commit/d14125e9b86544213fda85feab290a2902db0994)) - brads-renovate-bot[bot]
