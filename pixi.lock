@@ -57,7 +57,7 @@ environments:
       - conda: https://prefix.dev/brads-forge/linux-64/apm-0.28.0-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/cocogitto-7.0.0-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.85-h81b34b9_1.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.6-h81b34b9_4.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.7-h81b34b9_4.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.56.1-h81b34b9_3.conda
       - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.14-h81b34b9_2.conda
@@ -643,13 +643,13 @@ packages:
   run_exports: {}
   size: 90968916
   timestamp: 1789530000029
-- conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.6-h81b34b9_4.conda
-  sha256: 7ca6bc75527a810fedef5683caed22f66f4a239967cb2c9794ac96fa41ad573e
-  md5: 90f01e8a2987b25309003ad52e05fa42
+- conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.7-h81b34b9_4.conda
+  sha256: 1995b738716d6a61b65b11d0879520170e3c0ac2cfb22ebfc08bcfabe153e467
+  md5: 893cec8433d6a2db216e861dfbfd82f3
   license: MIT
   run_exports: {}
-  size: 35593324
-  timestamp: 1787894665131
+  size: 35654994
+  timestamp: 1789681458449
 - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
   sha256: 92f0740b320644c8cd0f66876f5a9b1029d992ee3df737748a87226e66652093
   md5: 24859519fe91d34e6fc7b5c60a29b2f6
