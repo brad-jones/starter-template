@@ -17,7 +17,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/age-1.3.2-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_10.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.8-hebe6cf0_2.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/gh-2.101.0-hfc2019e_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/gh-2.102.0-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/go-sops-3.13.3-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.3-py310h44b86e0_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/keyutils-1.6.3-h7cc23a3_1.conda
@@ -48,7 +48,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.14.7-hcd007b5_106_cp314.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.3-hd6e31c0_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h1df4ec4_4.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.20-h841d291_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.21-h841d291_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zlib-1.3.2-h25fd6f3_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb78ec9c_7.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.7.22-hbd8a1cb_0.conda
@@ -60,7 +60,7 @@ environments:
       - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.7-h81b34b9_4.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.56.1-h81b34b9_3.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.14-h81b34b9_2.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.15-h81b34b9_2.conda
       - conda: https://prefix.dev/brads-forge/linux-64/skopeo-1.24.1-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/task-3.53.1-h81b34b9_2.conda
 packages:
@@ -114,14 +114,13 @@ packages:
     - c-ares >=1.34.8,<2.0a0
   size: 228700
   timestamp: 1787169971173
-- conda: https://conda.anaconda.org/conda-forge/linux-64/gh-2.101.0-hfc2019e_0.conda
-  sha256: 50150ff329416c4edb487e61dc24c676198ed6fcf82424d655f12a36ab5f240b
-  md5: 5d52968f632c15c53183ce22b8d80144
+- conda: https://conda.anaconda.org/conda-forge/linux-64/gh-2.102.0-hfc2019e_0.conda
+  sha256: 7c7d9b68063b4a3588190fd82efba2c81a13d361250f4e09e57888ae2ea2cb6f
+  md5: d933d1442248e72f2559c7dc6df70e30
   license: Apache-2.0
-  license_family: APACHE
   run_exports: {}
-  size: 13955030
-  timestamp: 1789566648905
+  size: 13993962
+  timestamp: 1790750717805
 - conda: https://conda.anaconda.org/conda-forge/linux-64/go-sops-3.13.3-hfc2019e_0.conda
   sha256: 1a87fc1fae9954346e01b76d5d9e59262ae14ad1c68c81a31c562644a3db0855
   md5: 03b8c9da967ab0fdeb27476e0d530137
@@ -554,21 +553,21 @@ packages:
     - tk >=8.6.13,<8.7.0a0
   size: 3566806
   timestamp: 1787272857910
-- conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.20-h841d291_0.conda
-  sha256: d69123461bb1321d9c5b0f099f319d9fb3f1f16bb78f58713b433879b0d7974d
-  md5: 2bf4d15c28d9b16fd59abb5dbdd6b230
+- conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.21-h841d291_0.conda
+  sha256: 89dae92f8e08497e363634fb3906c62a2b09c8831845ad724a1d1e7a13acfdde
+  md5: 2204e44142337b0848eba0236d12beb1
   depends:
+  - libstdcxx >=15
   - libgcc >=15
   - __glibc >=2.17,<3.0.a0
-  - libstdcxx >=15
-  - liblzma >=5.8.3,<6.0a0
   - zstd >=1.5.7,<1.6.0a0
+  - liblzma >=5.8.3,<6.0a0
   constrains:
   - __glibc >=2.17
   license: Apache-2.0 OR MIT
   run_exports: {}
-  size: 17944841
-  timestamp: 1790653936910
+  size: 17898126
+  timestamp: 1790766788885
 - conda: https://conda.anaconda.org/conda-forge/linux-64/zlib-1.3.2-h25fd6f3_3.conda
   sha256: 16080a1c7724f7d25727cdc23c7658e0cec2db52448c1dc0c33467ee2c6e1c62
   md5: 6acb86426229f96f93e5468d1df3a5e8
@@ -671,13 +670,13 @@ packages:
   run_exports: {}
   size: 7166107
   timestamp: 1787358561602
-- conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.14-h81b34b9_2.conda
-  sha256: 527b0911d6ed57a7077274c227bbf70242e18e49577af8d5532474bd70e5cfbd
-  md5: 96e7f12bcc929e7fbe888a1da7299df9
+- conda: https://prefix.dev/brads-forge/linux-64/lefthook-2.1.15-h81b34b9_2.conda
+  sha256: e5cd0d46e0244e8dfd7002bee0ac40cff04ac5bb12d5cf13709c1c010f7b5ea4
+  md5: e15c399a7628fee8af61816f417451a1
   license: MIT
   run_exports: {}
-  size: 5188772
-  timestamp: 1789462556939
+  size: 5188140
+  timestamp: 1790732412160
 - conda: https://prefix.dev/brads-forge/linux-64/skopeo-1.24.1-h81b34b9_0.conda
   sha256: 01612951e08983e64381c853d1fcef1dc591c75bf11ab2ccaa346b387499ede2
   md5: b16e007636e0dcc64376b04535a07285
