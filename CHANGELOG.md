@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.34](https://github.com/brad-jones/starter-template/compare/dd8e4e8b4296cd25e350db99b14c94708ea30f3a..v0.5.34) - 2026-10-13
+#### Miscellaneous Chores
+- (**deps**) update pixi - ([dd8e4e8](https://github.com/brad-jones/starter-template/commit/dd8e4e8b4296cd25e350db99b14c94708ea30f3a)) - brad-jones
+
+- - -
+
 ## [v0.5.33](https://github.com/brad-jones/starter-template/compare/522c8c4b82a4e0db83e7b2e53261b61506698e2f..v0.5.33) - 2026-10-12
 #### Miscellaneous Chores
 - (**deps**) update renovatebot/github-action action to v46.3.8 - ([522c8c4](https://github.com/brad-jones/starter-template/commit/522c8c4b82a4e0db83e7b2e53261b61506698e2f)) - brads-renovate-bot[bot]
