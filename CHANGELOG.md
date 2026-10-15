@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.36](https://github.com/brad-jones/starter-template/compare/22f6bcd20cadd79efccb698fbb102899bfd1f9e1..v0.5.36) - 2026-10-15
+#### Miscellaneous Chores
+- (**deps**) update pixi - ([208f5b7](https://github.com/brad-jones/starter-template/commit/208f5b7bf42420b170ccd13f175b61fe4319e8c9)) - brad-jones
+- (**deps**) update dependency prefix-dev/pixi to v0.82.0 - ([94f8bc8](https://github.com/brad-jones/starter-template/commit/94f8bc89dbd7c0bcf6c308196851782cdea7fa51)) - brads-renovate-bot[bot]
+- (**deps**) update prefix-dev/setup-pixi action to v0.11.2 - ([22f6bcd](https://github.com/brad-jones/starter-template/commit/22f6bcd20cadd79efccb698fbb102899bfd1f9e1)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.5.35](https://github.com/brad-jones/starter-template/compare/3f25f21a1063ec257d4defae033ab91e6b6097c5..v0.5.35) - 2026-10-14
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([d03ff77](https://github.com/brad-jones/starter-template/commit/d03ff77f9ce8149ad9eb85a1c8e082f8c926e142)) - brad-jones
