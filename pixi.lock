@@ -16,7 +16,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/age-1.3.2-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_10.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.8-hebe6cf0_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.9-hebe6cf0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/gh-2.102.0-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/go-sops-3.13.3-hfc2019e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.3-py310h44b86e0_2.conda
@@ -51,12 +51,12 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.24-h535ca38_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zlib-1.3.2-h25fd6f3_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb78ec9c_7.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.10.18-hbd8a1cb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.10.19-hbd8a1cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.14-9_cp314.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/apm-0.28.0-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/cocogitto-7.0.0-h81b34b9_2.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.98-h81b34b9_1.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.101-h81b34b9_1.conda
       - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.7-h81b34b9_4.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.56.1-h81b34b9_3.conda
@@ -101,19 +101,18 @@ packages:
     - bzip2 >=1.0.8,<2.0a0
   size: 257808
   timestamp: 1785906269155
-- conda: https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.8-hebe6cf0_2.conda
-  sha256: 9c37cc233238adf366ea75b0e845662a5be07ceadf62e458183516369340274b
-  md5: 3ad2b403be8fc5612b9159e2ce621f69
+- conda: https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.9-hebe6cf0_0.conda
+  sha256: bd95dd25b80b5c4faf5349542377bf89b2794e23d0f7aa7f1c431e4f3b633f3c
+  md5: 78b505af04bf7a87ca957ef0cb5946f5
   depends:
-  - libgcc >=15
   - __glibc >=2.17,<3.0.a0
+  - libgcc >=15
   license: MIT
-  license_family: MIT
   run_exports:
     weak:
-    - c-ares >=1.34.8,<2.0a0
-  size: 228700
-  timestamp: 1787169971173
+    - c-ares >=1.34.9,<2.0a0
+  size: 233759
+  timestamp: 1792507024648
 - conda: https://conda.anaconda.org/conda-forge/linux-64/gh-2.102.0-hfc2019e_0.conda
   sha256: 7c7d9b68063b4a3588190fd82efba2c81a13d361250f4e09e57888ae2ea2cb6f
   md5: d933d1442248e72f2559c7dc6df70e30
@@ -595,15 +594,15 @@ packages:
     - zstd >=1.5.7,<1.6.0a0
   size: 601301
   timestamp: 1786599621503
-- conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.10.18-hbd8a1cb_0.conda
-  sha256: d65aa0c8990f34e1e86e6b505c8a149fea6cfbfcccef087a77c0bcb0b4fbe159
-  md5: f9f6a9cf041f31438b034dac016e6429
+- conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.10.19-hbd8a1cb_0.conda
+  sha256: 9404ee878c6bd5b260655ab651366db43fac6be8d465fcc0acd0f7a50be91acb
+  md5: a1d1bf676059d2863f000d5e2777743f
   depends:
   - __unix
   license: ISC
   run_exports: {}
-  size: 129191
-  timestamp: 1792347285941
+  size: 131396
+  timestamp: 1792483552251
 - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.14-9_cp314.conda
   build_number: 9
   sha256: e7f8e965bbfb98e08feb2365cacdad8bb218fa5b5a0a2752f747287f425f213c
@@ -636,13 +635,13 @@ packages:
   run_exports: {}
   size: 3154632
   timestamp: 1772686964029
-- conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.98-h81b34b9_1.conda
-  sha256: de48b6c3127d2a77ffb0f5d101f9a59aee43141a8e18621fb7a06ca363a213bd
-  md5: 343b562b3c164c9ec130fff54bf21113
+- conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.101-h81b34b9_1.conda
+  sha256: 7685c32648d7dc69f69ef80576a5657f106dd3a72526eb82166dd7485dc78044
+  md5: 9c513786e7674e023bdc8f3298400b9d
   license: LicenseRef-GitHub-PreRelease
   run_exports: {}
-  size: 110269795
-  timestamp: 1792014094007
+  size: 120933424
+  timestamp: 1792530205935
 - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.7-h81b34b9_4.conda
   sha256: 1995b738716d6a61b65b11d0879520170e3c0ac2cfb22ebfc08bcfabe153e467
   md5: 893cec8433d6a2db216e861dfbfd82f3
