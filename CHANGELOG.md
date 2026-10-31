@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.43](https://github.com/brad-jones/starter-template/compare/d89ee21ba9874c19eb4459eada562fa3203700df..v0.5.43) - 2026-10-31
+#### Miscellaneous Chores
+- (**deps**) update dependency dotnet-sdk to v10.0.403 - ([d0125c9](https://github.com/brad-jones/starter-template/commit/d0125c9b3b2b53e8650e65db22a6fc88c7c96a04)) - brads-renovate-bot[bot]
+- (**deps**) update pixi - ([55d3525](https://github.com/brad-jones/starter-template/commit/55d352592c9301c3fa20dda623a15e09651c5484)) - brad-jones
+- (**deps**) update renovatebot/github-action action to v46.3.11 - ([d89ee21](https://github.com/brad-jones/starter-template/commit/d89ee21ba9874c19eb4459eada562fa3203700df)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.5.42](https://github.com/brad-jones/starter-template/compare/7457a6b77a94cf5787d5da9925eabcc92799f3b9..v0.5.42) - 2026-10-25
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([7457a6b](https://github.com/brad-jones/starter-template/commit/7457a6b77a94cf5787d5da9925eabcc92799f3b9)) - brad-jones
