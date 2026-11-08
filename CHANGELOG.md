@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.47](https://github.com/brad-jones/starter-template/compare/d23074bcf25b8782a130794b354c8c74f360bf48..v0.5.47) - 2026-11-08
+#### Miscellaneous Chores
+- (**deps**) update pixi - ([d23074b](https://github.com/brad-jones/starter-template/commit/d23074bcf25b8782a130794b354c8c74f360bf48)) - brad-jones
+
+- - -
+
 ## [v0.5.46](https://github.com/brad-jones/starter-template/compare/55e635d9404d6eadf69e57dd5c0853508ced6729..v0.5.46) - 2026-11-07
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([55e635d](https://github.com/brad-jones/starter-template/commit/55e635d9404d6eadf69e57dd5c0853508ced6729)) - brad-jones
