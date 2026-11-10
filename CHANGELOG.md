@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.49](https://github.com/brad-jones/starter-template/compare/c30d76bdde61da1a77bcda89de2ef9af9dd90487..v0.5.49) - 2026-11-10
+#### Miscellaneous Chores
+- (**deps**) update dependency dotnet-outdated-tool to v4.9.0 - ([c30d76b](https://github.com/brad-jones/starter-template/commit/c30d76bdde61da1a77bcda89de2ef9af9dd90487)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.5.48](https://github.com/brad-jones/starter-template/compare/9783c36ad0ef18792bcd8a8c512f824bea3dda00..v0.5.48) - 2026-11-09
 #### Miscellaneous Chores
 - (**deps**) update renovatebot/github-action action to v46.3.13 - ([9783c36](https://github.com/brad-jones/starter-template/commit/9783c36ad0ef18792bcd8a8c512f824bea3dda00)) - brads-renovate-bot[bot]
