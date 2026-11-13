@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.53](https://github.com/brad-jones/starter-template/compare/e5358ce4479eff7a5f99f99d95b1a60be6febedd..v0.5.53) - 2026-11-13
+#### Miscellaneous Chores
+- (**deps**) install .NET SDK 11 via dotnetup - ([ceb63dc](https://github.com/brad-jones/starter-template/commit/ceb63dc5b495ac8e2d78ec29cd3e5c2fd5e23019)) - brad-jones, Copilot
+- (**deps**) update dependency dotnet-sdk to v11 - ([e5358ce](https://github.com/brad-jones/starter-template/commit/e5358ce4479eff7a5f99f99d95b1a60be6febedd)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.5.52](https://github.com/brad-jones/starter-template/compare/18af1cba6e09002f901bba55f5481f5384fb5a69..v0.5.52) - 2026-11-13
 #### Miscellaneous Chores
 - (**deps**) update dependency csharpier to v1.4.0 - ([18af1cb](https://github.com/brad-jones/starter-template/commit/18af1cba6e09002f901bba55f5481f5384fb5a69)) - brads-renovate-bot[bot]
