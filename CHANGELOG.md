@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.52](https://github.com/brad-jones/starter-template/compare/18af1cba6e09002f901bba55f5481f5384fb5a69..v0.5.52) - 2026-11-13
+#### Miscellaneous Chores
+- (**deps**) update dependency csharpier to v1.4.0 - ([18af1cb](https://github.com/brad-jones/starter-template/commit/18af1cba6e09002f901bba55f5481f5384fb5a69)) - brads-renovate-bot[bot]
+
+- - -
+
 ## [v0.5.51](https://github.com/brad-jones/starter-template/compare/66350b6dda64eb5d82b353c1a4938953425b8b41..v0.5.51) - 2026-11-13
 #### Miscellaneous Chores
 - (**deps**) update pixi - ([66350b6](https://github.com/brad-jones/starter-template/commit/66350b6dda64eb5d82b353c1a4938953425b8b41)) - brad-jones
