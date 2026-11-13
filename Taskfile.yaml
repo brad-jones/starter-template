@@ -48,7 +48,7 @@ tasks:
     sources:
       - global.json
     cmds:
-      - dotnetup install 10
+      - dotnetup install 11
 
   init:dotnet-tools:
     internal: true
