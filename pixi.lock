@@ -56,7 +56,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2026e-h5d301ff_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/apm-0.28.0-h81b34b9_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/cocogitto-7.0.0-h81b34b9_2.conda
-      - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.115-h81b34b9_1.conda
+      - conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.116-h81b34b9_1.conda
       - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.8-h81b34b9_4.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dotnetup-0.5.2-hcc556be_0.conda
       - conda: https://prefix.dev/brads-forge/linux-64/dprint-0.56.1-h81b34b9_3.conda
@@ -636,13 +636,13 @@ packages:
   run_exports: {}
   size: 3154632
   timestamp: 1772686964029
-- conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.115-h81b34b9_1.conda
-  sha256: 78260a662e8c42626643588bc41839d195b36a77f72d5374f419a340e899cd03
-  md5: a97a2589d3c0b6621cd5fecd54397ece
+- conda: https://prefix.dev/brads-forge/linux-64/copilot-cli-1.0.116-h81b34b9_1.conda
+  sha256: 2d897ec00fabf95bcffdf25496fc259b4efbcb8e19fd8ec6a54029495e0f5db2
+  md5: 0aa55f07822847574c3884ca1a8302d1
   license: LicenseRef-GitHub-PreRelease
   run_exports: {}
-  size: 184354172
-  timestamp: 1795560691265
+  size: 157827225
+  timestamp: 1795646959199
 - conda: https://prefix.dev/brads-forge/linux-64/deno-2.9.8-h81b34b9_4.conda
   sha256: b7b474dc4e2d585ec72544cc4909789e9e8f7a69def0093685c59bd8b3c4853a
   md5: 3deff2c2e758f6b410419ba346a33f5b
